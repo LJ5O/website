@@ -5,7 +5,7 @@ import Header from './components/Header.vue';
 
 <template>
   <header>
-    <Header :links="[['google', 'a'], ['yahoo', 'a'], ['Yandex', 'a']]"></Header>
+    <!--<Header :links="[['About me', 'a'], ['Projects', '#projects']]"></Header>-->
   </header>
 
   <div id="view_content">
