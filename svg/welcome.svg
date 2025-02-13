@@ -25,9 +25,9 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="1.1033287"
-     inkscape:cx="259.21559"
-     inkscape:cy="185.34821"
+     inkscape:zoom="0.99737351"
+     inkscape:cx="243.1386"
+     inkscape:cy="176.9648"
      inkscape:window-width="1854"
      inkscape:window-height="1011"
      inkscape:window-x="66"
@@ -73,7 +73,6 @@
      id="layer1"
      style="display:inline"
      inkscape:highlight-color="#35f3a1"
-     sodipodi:insensitive="true"
      transform="translate(-8.3937588,-13.272017)">
     <rect
        style="fill:#000000;stroke-width:0.194644"
@@ -232,8 +231,7 @@
     </g>
     <g
        id="g2190"
-       inkscape:label="Affiche"
-       sodipodi:insensitive="true">
+       inkscape:label="Affiche">
       <rect
          style="fill:url(#radialGradient929);fill-opacity:1;stroke-width:0.264583"
          id="rect875"
@@ -734,17 +732,6 @@
            height="12.023771"
            x="163.58629"
            y="49.068981" />
-        <text
-           xml:space="preserve"
-           style="font-size:3.175px;fill:#000000;stroke-width:0.264583"
-           x="168.54955"
-           y="56.271492"
-           id="text2485"><tspan
-             sodipodi:role="line"
-             id="tspan2483"
-             style="fill:#ffffff;stroke-width:0.264583"
-             x="168.54955"
-             y="56.271492">The lab</tspan></text>
       </g>
       <g
          id="g2660"
@@ -836,6 +823,22 @@
            inkscape:transform-center-x="-0.12008699"
            inkscape:transform-center-y="0.0089943927" />
       </g>
+      <rect
+         style="fill:#b3b3b3;stroke-width:0.203773"
+         id="rect329"
+         width="14.825479"
+         height="1.6538681"
+         x="165.58542"
+         y="51.828114"
+         ry="0.82693404" />
+      <rect
+         style="display:inline;fill:#b3b3b3;stroke-width:0.18356"
+         id="rect329-7"
+         width="12.030177"
+         height="1.6538681"
+         x="165.58542"
+         y="55.049873"
+         ry="0.82693404" />
     </g>
   </g>
   <g
