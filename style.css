@@ -1,0 +1,54 @@
+html, body{
+    background-color: #1E1E1E;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+h1,h2,h3,h4,h5,p{
+    color: #EAEAEA;
+    /*Family Roboto or Atma ?*/
+}
+
+.test{
+    border: red dotted 2px;
+}
+
+#welcome_div{
+    width: 100vw;
+    min-height: 100vh;
+    margin: 0;
+}
+
+#random_citation{
+    position: absolute;
+    top: 180px;
+    left: 65%;
+    font-size: 2em;
+    transform:rotate(15deg);
+}
+
+#name_div{
+    margin-top: 10%;
+    margin-left: 15%;
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#profile_picture{
+    width: 300px;
+    height: 300px;
+}
+#profile_picture img{
+    border-radius: 50%;
+}
+
+#welcome_text_div{
+    height: 100%;
+    width: fit-content;
+}
+#welcome_text_div h1{
+    margin-top: 100px;
+}
