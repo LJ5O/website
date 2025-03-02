@@ -73,7 +73,7 @@ h1,h2,h3,h4,h5,p{
 
 .intersection_div{
     width: 100vw;
-    min-height: 150px;
+    height: 150px;
     background-color: #D9D9D9;
 }
 .intersection_content{
@@ -81,6 +81,8 @@ h1,h2,h3,h4,h5,p{
     margin: auto;
     display: flex;
     align-items: center;
+    flex-direction: row;
+    height: 100%;
 }
 .intersection_content h2{
     color: #1E1E1E !important;
