@@ -15,14 +15,12 @@
           </p>
         </article>
       </div>
-      <div id="presentation_img"><img src="https://picsum.photos/500/250"></div>
+      <div id="presentation_img"><img :src="welcomeImg"></div>
     </div> <!-- Presentation div -->
 </template>
 
-<script>
-export default {
-
-}
+<script setup>
+  import welcomeImg from "@/assets/svg/welcome.svg";
 </script>
 
 <style>
@@ -55,9 +53,11 @@ export default {
     width: fit-content;
     width: 40%;
     min-width: 500px;
-}
-#presentation_img{
     margin-left: auto;
     margin-top: 20px;
+}
+#presentation_img img{
+    width: 100%;
+    height: 100%;
 }
 </style>
