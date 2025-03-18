@@ -7,7 +7,7 @@
            
             <div id="name_div_right_container">
               <div class="test" id="welcome_text_div">
-                <h1>Hello ! I'm </h1>
+                <h1>Hello ! I'm {{ $t('message.hello') }} </h1>
                 <h2>AI enthousiast</h2>
               </div>
               <div id="social_networks" class="test">
