@@ -1,6 +1,6 @@
 <template>
     <div class="" id="welcome_div">
-      <p id="random_citation">Random Sentence</p>
+      <!--<p id="random_citation">Random Sentence</p>-->
 
         <div class="test" id="name_div">
             <div id="profile_picture"><img src="https://picsum.photos/200" height="100%" width="100%"></div>
@@ -39,6 +39,7 @@ export default {
     width: 100vw;
     height: 100vh;
     margin: 0;
+    min-height: 650px;
 }
 
 #random_citation{
@@ -71,6 +72,7 @@ export default {
     display: flex;
     flex-direction: column;
     height: fit-content;
+    flex-wrap: wrap;
 }
 #welcome_text_div{
     height: 100%;
