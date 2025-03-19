@@ -1,5 +1,4 @@
 <script setup>
-  import GOLbackground from '@/components/GOLbackground.vue';
   import welcome from '@/components/home/welcome.vue';
   import intersection from '@/components/home/intersection.vue';
   import presentation from '@/components/home/presentation.vue';
@@ -42,8 +41,6 @@
 </script>
 
 <template>
-
-    <GOLbackground />
 
     <welcome/>
 

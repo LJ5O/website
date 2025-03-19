@@ -18,6 +18,7 @@ else if(userLanguage.split("-")[0] == "jp" || userLanguage.split("-")[0] == "ja"
 else userLanguage = "en";
 
 const i18n = createI18n({
+    legacy:false,
     locale: userLanguage,
     fallbackLocale: 'en',
     messages: {
