@@ -8,7 +8,7 @@
             <div id="name_div_right_container">
               <div class="test" id="welcome_text_div">
                 <h1>Hello ! I'm {{ $t('message.hello') }} </h1>
-                <h2>AI enthousiast</h2>
+                <dynamicOccupation id="dynamic_occupation" :sentences="occupations" />
               </div>
               <div id="social_networks" class="test">
                 <div class="network">
@@ -27,10 +27,10 @@
     </div> <!-- Welcome Div -->
 </template>
 
-<script>
-export default {
+<script setup>
+  import dynamicOccupation from './dynamicOccupation.vue';
 
-}
+  const occupations = ["AI enthousiast", "I don't know", "Test Hello World"]
 </script>
 
 <style scoped>
@@ -80,6 +80,8 @@ export default {
 }
 #welcome_text_div h1{
     margin-top: 100px;
+    margin-bottom: 10px;
+    font-size: 2em;
 }
 
 #social_networks{
