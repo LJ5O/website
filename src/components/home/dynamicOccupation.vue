@@ -14,6 +14,11 @@
             type:Number,
             required:false,
             default: 250
+        },
+        pauseOnWordEnd:{
+            type:Number,
+            required:false,
+            default:1000
         }
     });
 
@@ -35,7 +40,9 @@
             chosenWord.value = (chosenWord.value+1) % props.sentences.length;
         }
 
-        if(active.value) setTimeout(tick, props.speed);
+        if(active.value && currentLetter.value == word.length)
+            setTimeout(tick, props.pauseOnWordEnd); //Word complete, longer pause
+        else if(active.value) setTimeout(tick, props.speed);
     }
 
     onMounted(tick);
