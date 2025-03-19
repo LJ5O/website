@@ -1,18 +1,9 @@
 <template>
   <div id="presentation_div" class="">
       <div id="presentation_text">
-        <h1>Thanks for coming !</h1>
+        <h1>{{ $t("home.presentationTitle") }}</h1>
         <article>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-            Aenean nec ante tristique, tincidunt dolor a, maximus nisl. 
-            Curabitur ut metus accumsan, vestibulum ex vitae, pretium enim.
-            Etiam tincidunt mauris quis elit egestas, vel viverra justo 
-            efficitur. Nulla facilisi. Cras porttitor odio a massa pretium 
-            varius. Vivamus felis risus, luctus vel mollis nec, lacinia non 
-            libero. Proin mattis, ante vitae mattis sollicitudin, turpis 
-            erat auctor arcu, vel fringilla arcu diam aliquam urna. 
-          </p>
+          <p>{{ $t("home.presentationText") }}</p>
         </article>
       </div>
       <div id="presentation_img"><img :src="welcomeImg"></div>

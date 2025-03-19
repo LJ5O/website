@@ -5,17 +5,16 @@
   import feature from '@/components/home/feature.vue';
   import projects from '@/components/home/projects.vue';
 
+  import {useI18n} from 'vue-i18n';
+  const i18n = useI18n();
+
+  import projectsSvg from '@/assets/svg/projets.svg';
+
   const features = [{
-    title:"Hello World !",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin felis \
-            lectus, feugiat in eros sit amet, venenatis euismod urna. Aliquam id \
-            porttitor erat, vitae dapibus velit. Praesent id felis tincidunt, \
-            efficitur tortor eget, volutpat orci. Vestibulum ac lectus tincidunt, \
-            suscipit justo at, fringilla nisl. Aliquam tincidunt congue faucibus. Duis in nisi tortor. \
-            Nulla sit amet turpis nec turpis rhoncus venenatis. Sed nec malesuada quam. \
-            Aenean faucibus neque id nibh facilisis auctor. ",
-    buttonText: "Click me !",
-    picture: "https://picsum.photos/600/400",
+    title: i18n.t("home.features.projects.title"),
+    desc: i18n.t("home.features.projects.desc"),
+    buttonText: i18n.t("home.features.projects.buttonText"),
+    picture: projectsSvg,
     link: "#"
   },{
     title:"Hello World !",
@@ -44,7 +43,7 @@
 
     <welcome/>
 
-    <intersection text="Lorem ipsum dolor sit amet" button-text="En savoir plus" button-link="#"/>
+    <intersection :text="i18n.t('home.contactMe')" :button-text="i18n.t('home.contactButton')" button-link="#"/>
 
     <presentation/>
 

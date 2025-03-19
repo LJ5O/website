@@ -7,7 +7,7 @@
            
             <div id="name_div_right_container">
               <div class="test" id="welcome_text_div">
-                <h1>Hello ! I'm {{ $t('message.hello') }} </h1>
+                <h1> {{ $t('home.greeting') }} </h1>
                 <dynamicOccupation id="dynamic_occupation" :sentences="occupations" />
               </div>
               <div id="social_networks" class="test">
@@ -29,8 +29,14 @@
 
 <script setup>
   import dynamicOccupation from './dynamicOccupation.vue';
+  import {useI18n} from 'vue-i18n';
 
-  const occupations = ["AI enthousiast", "I don't know", "Test Hello World"]
+  const i18n = useI18n();
+
+  const occupations = [
+  i18n.t('home.occupation.ai'), i18n.t('home.occupation.fullstack'),
+  i18n.t('home.occupation.student')
+  ]
 </script>
 
 <style scoped>

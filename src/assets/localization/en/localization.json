@@ -1,5 +1,21 @@
 {
-    "message": {
-      "hello": "hello world"
+    "home":{
+      "greeting": "Hello ! I'm Kévin Taccoen !",
+      "occupation": {
+        "ai":"AI enthusiast",
+        "fullstack":"Full-Stack Developer",
+        "student":"Master's degree student"
+      },
+      "presentationTitle":"Thanks for visiting !",
+      "presentationText": "I'm Kévin Taccoen, TODO",
+      "contactMe": "Are you looking to send me a message ?",
+      "contactButton": "Contact",
+      "features": {
+        "projects":{
+          "title": "Always working on some projects",
+          "desc": "As you will see a little below, I'm always working on something.",
+          "buttonText": "See all projects"
+        }
+      }
     }
 }

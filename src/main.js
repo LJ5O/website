@@ -17,9 +17,11 @@ if(userLanguage.split("-")[0] == "fr") userLanguage = "fr";
 else if(userLanguage.split("-")[0] == "jp" || userLanguage.split("-")[0] == "ja") userLanguage = "ja";
 else userLanguage = "en";
 
+console.warn("Locale forced to english !");
+
 const i18n = createI18n({
     legacy:false,
-    locale: userLanguage,
+    locale: 'en',//userLanguage,
     fallbackLocale: 'en',
     messages: {
       en: en,
