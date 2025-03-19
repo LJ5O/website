@@ -56,7 +56,7 @@
 .feature_img_div{
     width: 40%;
     flex: 1;
-    height: 600px;
+    max-height: 600px;
     min-width: 150px;
 }
 .feature_img_div img{
