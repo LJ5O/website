@@ -70,9 +70,11 @@
 }
 .feature_text_div h2{
     margin-bottom: 5px;
+    font-size: 1.8em;
 }
 .feature_text_div article p{
     margin-top: 20px;
+    font-size: 1.3em;
 }
 .feature_button{
     background-color: aqua;

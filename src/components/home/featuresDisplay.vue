@@ -6,7 +6,7 @@
       :button-text="e.buttonText"
       :link="e.link"
       :picture="e.picture"
-      :side="i%2==0"
+      :side="i%2==1"
     />
 </template>
 
@@ -17,6 +17,7 @@
     const i18n = useI18n();
 
     import projectsSvg from '@/assets/svg/projets.svg';
+    import aiSvg from '@/assets/svg/skills/AI.svg'
 
     const features = [{
         title: i18n.t("home.features.projects.title"),
@@ -25,16 +26,10 @@
         picture: projectsSvg,
         link: "#"
     },{
-        title:"Hello World !",
-        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin felis \
-                lectus, feugiat in eros sit amet, venenatis euismod urna. Aliquam id \
-                porttitor erat, vitae dapibus velit. Praesent id felis tincidunt, \
-                efficitur tortor eget, volutpat orci. Vestibulum ac lectus tincidunt, \
-                suscipit justo at, fringilla nisl. Aliquam tincidunt congue faucibus. Duis in nisi tortor. \
-                Nulla sit amet turpis nec turpis rhoncus venenatis. Sed nec malesuada quam. \
-                Aenean faucibus neque id nibh facilisis auctor. ",
-        buttonText: "Click me !",
-        picture: "https://picsum.photos/600/400",
+        title: i18n.t("home.features.ai.title"),
+        desc: i18n.t("home.features.ai.desc"),
+        buttonText: i18n.t("home.features.ai.buttonText"),
+        picture: aiSvg,
         link: "#"
     }];
 </script>
