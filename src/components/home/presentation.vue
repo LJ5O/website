@@ -28,6 +28,8 @@
 }
 #presentation_text{
     width: calc( 55% - 30px );
+    min-width: 250px;
+    flex:1;
     margin-left: 30px;
 }
 #presentation_text h1{
@@ -43,14 +45,20 @@
     font-size: 1.4em;
 }
 #presentation_img{
-    width: fit-content;
     width: 40%;
-    min-width: 500px;
+    min-width: 400px;
     margin-left: auto;
     margin-top: 20px;
+    flex:1;
 }
 #presentation_img img{
     width: 100%;
     height: 100%;
+}
+
+@media (max-width: 599px) {
+    #presentation_img {
+      min-width: 200px !important;
+    }
 }
 </style>
