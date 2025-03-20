@@ -3,7 +3,7 @@
       <div id="presentation_text">
         <h1>{{ $t("home.presentationTitle") }}</h1>
         <article>
-          <p>{{ $t("home.presentationText") }}</p>
+          <p v-html="$t('home.presentationText')"></p>
         </article>
       </div>
       <div id="presentation_img"><img :src="welcomeImg"></div>
@@ -34,11 +34,13 @@
     width: fit-content;
     margin:auto;
     margin-top: 5px;
+    font-size: 2.6em;
 }
 #presentation_text article p{
     width: fit-content;
     margin:auto;
     margin-top: 20px;
+    font-size: 1.4em;
 }
 #presentation_img{
     width: fit-content;
