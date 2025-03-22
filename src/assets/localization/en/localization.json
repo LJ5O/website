@@ -12,14 +12,14 @@
       "contactButton": "Contact",
       "features": {
         "projects":{
-          "title": "Let's overview some types of projects I'm often dealing with",
+          "title": "Always working on new and innovative things",
           "desc": "Be it for study, work or on my free time, I'm always working on something new. As I love to see how those lines of code can enhance daily life, or make Science moving forward, I strive to always imagine, create and maintain useful things.",
           "buttonText": "See all projects"
         },
-        "ai":{
-          "title": "Artificial Intelligence",
-          "desc": "How is it possible to...",
-          "buttonText": "IDK"
+        "skills":{
+          "title": "Knowledge and Skills",
+          "desc": "As I have worked on various topics, I learned a lot about different technologies. As years and tasks are going by, I always strive to learn more and make a good use of my capacities.",
+          "buttonText": "More about skills"
         }
       }
     }

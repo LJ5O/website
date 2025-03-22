@@ -17,7 +17,7 @@
     const i18n = useI18n();
 
     import projectsSvg from '@/assets/svg/projets.svg';
-    import aiSvg from '@/assets/svg/skills/AI.svg'
+    import skillsSvg from '@/assets/svg/skills.svg'
 
     const features = [{
         title: i18n.t("home.features.projects.title"),
@@ -26,10 +26,10 @@
         picture: projectsSvg,
         link: "#"
     },{
-        title: i18n.t("home.features.ai.title"),
-        desc: i18n.t("home.features.ai.desc"),
-        buttonText: i18n.t("home.features.ai.buttonText"),
-        picture: aiSvg,
+        title: i18n.t("home.features.skills.title"),
+        desc: i18n.t("home.features.skills.desc"),
+        buttonText: i18n.t("home.features.skills.buttonText"),
+        picture: skillsSvg,
         link: "#"
     }];
 </script>
