@@ -8,12 +8,16 @@
         <article>
           <p>{{ props.desc }}</p>
         </article>
-        <button class="button feature_button">{{ props.buttonText }}</button>
+        <RouterLink :to="props.link">
+            <button @click="goToTop" class="button feature_button">{{ props.buttonText }}</button>
+        </RouterLink>
       </div>
     </div> <!-- Feature div -->
 </template>
 
 <script setup>
+    import { RouterLink } from 'vue-router';
+
     const props = defineProps({
         title:{
             type:String,
@@ -40,6 +44,10 @@
             required:true
         }
     });
+
+    function goToTop(){
+        window.scrollTo(0, 0);
+    }
 </script>
 
 <style scoped>

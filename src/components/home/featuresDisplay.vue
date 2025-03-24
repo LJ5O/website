@@ -30,7 +30,7 @@
         desc: i18n.t("home.features.skills.desc"),
         buttonText: i18n.t("home.features.skills.buttonText"),
         picture: skillsSvg,
-        link: "#"
+        link: "skills"
     }];
 </script>
 
