@@ -1,7 +1,10 @@
 <template>
   <div class="fact">
     <img :src="picture">
-    <article><p>{{ text }}</p></article>
+    <article>
+        <h2>{{ title }}</h2>
+        <p>{{ desc }}</p>
+    </article>
     <RouterLink v-if="link!='#'" class="router" :to="link"><button class="button">{{ buttonText }}</button></RouterLink>
   </div>
 </template>
@@ -10,7 +13,11 @@
 import { RouterLink } from 'vue-router';
 
 const props = defineProps({
-        text:{
+        title:{
+            type:String,
+            required:true
+        },
+        desc:{
             type:String,
             required:true
         },
@@ -53,13 +60,20 @@ const props = defineProps({
         margin-left: 20px;
     }
 
-    article {
+    article{
         color: white;
         padding: 0 20px;
         display: flex;
+        flex-direction: column;
         justify-content: center;
-        align-items: center;
+        /*align-items: center;*/
         max-width: 50%;
+        gap: 10px;
+    }
+
+    article p, article h2{
+        margin: 0;
+        text-align: left;
     }
 
     .router{

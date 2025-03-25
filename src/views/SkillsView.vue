@@ -3,7 +3,7 @@
     <h1 class="center">{{ $t("skills.title") }}</h1>
     <p class="center content">{{ $t("skills.subtitle") }}</p>
 
-    <FactList v-for="(e,i) in skills" :key="i" :text="e.text" :buttonText="e.buttonText" :link="e.link" :picture="e.picture" class="factList"/>
+    <FactList v-for="(e,i) in skills" :key="i" :title="e.title" :desc="e.desc" :buttonText="e.buttonText" :link="e.link" :picture="e.picture" class="factList"/>
   </template>
 
 <script setup>
@@ -21,25 +21,30 @@
   const i18n = useI18n();
 
   const skills = [{
-    text: i18n.t("skills.skills.ai.desc"),
+    title: i18n.t("skills.skills.ai.title"),
+    desc: i18n.t("skills.skills.ai.desc"),
     picture: aIsvg
   },{
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ante turpis, mattis vel tellus nec, porttitor condimentum libero. Fusce ut neque magna. ",
+    title:"A",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ante turpis, mattis vel tellus nec, porttitor condimentum libero. Fusce ut neque magna. ",
     buttonText: "Click me",
     picture: webSvg,
     link: "google.com"
   },{
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ante turpis, mattis vel tellus nec, porttitor condimentum libero. Fusce ut neque magna. ",
+    title:"A",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ante turpis, mattis vel tellus nec, porttitor condimentum libero. Fusce ut neque magna. ",
     buttonText: "Click me",
     picture: lowlevelSvg,
     link: "google.com"
   },{
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ante turpis, mattis vel tellus nec, porttitor condimentum libero. Fusce ut neque magna. ",
+    title:"A",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ante turpis, mattis vel tellus nec, porttitor condimentum libero. Fusce ut neque magna. ",
     buttonText: "Click me",
     picture: devopsSvg,
     link: "google.com"
   },{
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ante turpis, mattis vel tellus nec, porttitor condimentum libero. Fusce ut neque magna. ",
+    title:"A",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ante turpis, mattis vel tellus nec, porttitor condimentum libero. Fusce ut neque magna. ",
     buttonText: "Click me",
     picture: analysisSvg,
     link: "google.com"

@@ -28,6 +28,7 @@
     "subtitle": "As I have worked on various topics, I learned a lot about different technologies. As years and tasks are going by, I always strive to learn more and make a good use of my capacities. Here are some example of fields I already have dealed with :",
     "skills":{
       "ai":{
+        "title": "Artificial Intelligence",
         "desc":"I'm spending a lot of time learning AI"
       }
     }
