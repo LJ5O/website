@@ -3,14 +3,14 @@
     <h1 class="center">{{ $t("skills.title") }}</h1>
     <p class="center content">{{ $t("skills.subtitle") }}</p>
 
-    <FactList v-for="(e,i) in skills" :key="i" :title="e.title" :desc="e.desc" :buttonText="e.buttonText" :link="e.link" :picture="e.picture" class="factList"/>
+    <SkillsList v-for="(e,i) in skills" :key="i" :title="e.title" :desc="e.desc" :buttonText="e.buttonText" :link="e.link" :picture="e.picture" class="factList"/>
   </template>
 
 <script setup>
   import { useI18n } from 'vue-i18n';
 
   import Header from '@/components/header.vue';
-  import FactList from '@/components/skills/factList.vue';
+  import SkillsList from '@/components/skills/skillsList.vue';
 
   import aIsvg from '@/assets/svg/skills/AI.svg';
   import analysisSvg from '@/assets/svg/skills/analysis.svg';
