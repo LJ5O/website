@@ -1,15 +1,15 @@
 <template>
-  <div class="feature_div" :class="{'reversed':props.side}">
+  <div class="feature_div" :class="{'reversed':side}">
       <div class="feature_img_div">
-        <img :src="props.picture">
+        <img :src="picture">
       </div>
       <div class="feature_text_div">
-        <h2>{{ props.title }}</h2>
+        <h2>{{ title }}</h2>
         <article>
-          <p>{{ props.desc }}</p>
+          <p>{{ desc }}</p>
         </article>
-        <RouterLink :to="props.link">
-            <button @click="goToTop" class="button feature_button">{{ props.buttonText }}</button>
+        <RouterLink :to="link" v-if="link!='#'">
+            <button @click="goToTop" class="button feature_button">{{ buttonText }}</button>
         </RouterLink>
       </div>
     </div> <!-- Feature div -->
@@ -29,11 +29,13 @@
         },
         buttonText:{
             type:String,
-            required:true
+            required:false,
+            default:""
         },
         link:{
             type:String,
-            required:true
+            required:false,
+            default: "#"
         },
         picture:{
             type:String,
