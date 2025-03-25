@@ -11,7 +11,7 @@
 </template>
 
 <script setup>
-    import feature from './feature.vue';
+    import feature from './libs/feature.vue';
 
     import {useI18n} from 'vue-i18n';
     const i18n = useI18n();

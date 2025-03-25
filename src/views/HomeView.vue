@@ -13,7 +13,8 @@
     desc:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin felis lectus, feugiat in eros sit amet, \
       venenatis euismod urna. Aliquam id porttitor erat, vitae dapibus velit. Praesent id felis tincidunt,",
     buttonText:"Oui !",
-    buttonLink:"#"
+    buttonLink:"#",
+    tags:[{title:"School", colour:"purple"}]
   }]
 </script>
 <!-- Want to config displayed text ? Have a look inside components !

@@ -13,6 +13,9 @@
           <div class="project_picture">
             <img :src="e.picture">
           </div>
+          <div class="project_tags">
+            <projectTag v-for="(tag,indexTag) in e.tags" :key="indexTag" :title="tag.title" :colour="tag.colour"></projectTag>
+          </div>
           <div class="project_description">
             <article>
               <p>{{ e.desc }}</p>
@@ -26,6 +29,8 @@
 </template>
 
 <script setup>
+    import projectTag from './libs/projectTag.vue';
+
     const props = defineProps({
         projects:{
             type:Array,
@@ -81,11 +86,25 @@
         width: 100%;
         height: 100%;
     }
+    .project_tags{
+        width: 95%;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 0px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 5px;
+    }
     .project_description{
         width: 90%;
         margin: auto;
         font-size: 1.1em;
         margin-bottom: 20px;
+        margin-top: 0px;
+    }
+    .project_description p{
+        margin: 8px auto;
     }
     .project_button{
         background-color: rgb(65, 185, 61);
