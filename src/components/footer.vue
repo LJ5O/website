@@ -79,7 +79,6 @@ export default {
     #footer_social_networks{
         width: 15%;
         min-width: 200px;
-        border: 2px rgb(16, 207, 102) dotted;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -104,11 +103,9 @@ export default {
         width: 25%;
         min-width: 250px;
         flex-wrap: wrap;
-        border: 2px rgb(212, 15, 230) dotted;
         align-content: flex-start;
     }
     .footer_links_box{
-        border: 3px blue dotted;
         width: fit-content;
         margin-right: 20px;
         margin-bottom: 15px;
@@ -134,7 +131,6 @@ export default {
     }
 
     #footer_contact_div{
-        border: rgb(82, 15, 170) 2px solid;
         width: 15%;
         min-width: 160px;
     }

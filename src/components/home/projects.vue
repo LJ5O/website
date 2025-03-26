@@ -41,7 +41,6 @@
 
 <style scoped>
     #projects_summary{
-        border: 4px dotted red;
         width: 80%;
         margin: auto;
         margin-top: 30px;
@@ -60,7 +59,6 @@
         width: 90%;
         margin: auto;
         margin-top: 15px;
-        border: 4px dotted green;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
