@@ -29,7 +29,23 @@
     "skills":{
       "ai":{
         "title": "Artificial Intelligence",
-        "desc":"I'm spending a lot of time learning AI"
+        "desc":"AI is a really hot topic in Computer Science, and while staying updated about the latests discoveries, I spend a lot of time working on AI projects, using mainly Tensorflow and LLMs."
+      },
+      "web":{
+        "title": "Web & Apps development",
+        "desc": "Websites and APIs are essentials tools to communicate and share information between people and services. Mastering the ability to create and maintain such applications is essential in my works."
+      },
+      "low_level":{
+        "title": "Low level programming",
+        "desc": "Some applications and algorithms need to be highly optimized and run fast. This is where C, C++ or Rust come in handy. I often write programs designed to produce quick results when doing research about algorithms."
+      },
+      "devops":{
+        "title": "DevOps and deployment",
+        "desc": "No matter how great is a website or an app, if it's not hosted and accessible on the Internet, it's still useless ! A good understanding of hosting best practices is vital to create something, from the blank file to the production servers."
+      },
+      "data":{
+        "title": "Data analysis",
+        "desc": "When working with AI, creating a high-quality dataset for training is vital. Many operations and transformations need to be executed, which require a solid understanding of data management. Some infrasctructures also come with databases containing valuable information, that should be extracted and analysed to extract the best from it."
       }
     }
   }
