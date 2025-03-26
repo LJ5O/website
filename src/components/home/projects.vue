@@ -1,27 +1,27 @@
 <template>
   <div id="projects_summary">
       <div id="projects_summary_text">
-        <h1>Les projets que j'ai déjà fait</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin felis 
-          lectus, feugiat in eros sit amet, venenatis euismod urna. Aliquam id 
-          porttitor erat, vitae dapibus velit. Praesent id felis tincidunt.</p>
+        <h1>{{ $t("home.projects.title") }}</h1>
+        <p>{{ $t("home.projects.desc") }}</p>
       </div>
 
       <div id="projects_holder">
 
-        <div v-for="(e,i) in props.projects" :key="i" class="project">
-          <div class="project_picture">
-            <img :src="e.picture">
-          </div>
-          <div class="project_tags">
-            <projectTag v-for="(tag,indexTag) in e.tags" :key="indexTag" :title="tag.title" :colour="tag.colour"></projectTag>
-          </div>
-          <div class="project_description">
-            <article>
-              <p>{{ e.desc }}</p>
-            </article>
-            <a :href="e.buttonLink"><button class="button project_button">{{ e.buttonText }}</button></a>
-          </div>
+        <div v-for="(e,i) in projctsInfo" :key="i" class="project">
+            
+            <h2>{{ e.title }}</h2>
+            <div class="project_picture">
+                <img :src="e.picture">
+            </div>
+            <div class="project_tags">
+                <projectTag v-for="(tag,indexTag) in e.tags" :key="indexTag" :title="tag.title" :colour="tag.colour"></projectTag>
+            </div>
+            <div class="project_description">
+                <article>
+                    <p>{{ e.desc }}</p>
+                </article>
+                <a :href="e.buttonLink" target="_blank"><button class="button project_button">{{ e.buttonText }}</button></a>
+            </div>
         </div>
 
       </div>
@@ -31,12 +31,29 @@
 <script setup>
     import projectTag from './libs/projectTag.vue';
 
-    const props = defineProps({
-        projects:{
-            type:Array,
-            required:true
-        }
-    });
+    import disblockSvg from "@/assets/svg/projects/disblock.svg";
+
+    import {useI18n} from 'vue-i18n';
+    const i18n = useI18n();
+
+    const tagsColours = {
+        home:'#8a1bc8',
+        active:'#598609',
+        bugs_only:'#7a781f',
+        archived: '#6c5e73'
+    };
+
+    const projctsInfo = [{
+        picture: disblockSvg,
+        title: i18n.t("home.projects.project.disblock.title"),
+        desc:i18n.t("home.projects.project.disblock.desc"),
+        buttonText:i18n.t("home.projects.project.disblock.button_text"),
+        buttonLink:"https://github.com/Disblock/WebApp",
+        tags:[
+            {title:i18n.t("home.projects.tags.home"), colour:tagsColours.home},
+            {title:i18n.t("home.projects.tags.bugs_only"), colour:tagsColours.bugs_only}
+        ]
+    }];
 </script>
 
 <style scoped>
@@ -73,6 +90,11 @@
         background-color: #2c2b2b;
         border-radius: 8px;
         border: 2px #EAEAEA solid;
+    }
+    .project h2{
+        margin:0;
+        margin-top: 10px;
+        text-align: center;
     }
     .project_picture{
         height: 200px;

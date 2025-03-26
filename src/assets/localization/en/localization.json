@@ -21,6 +21,23 @@
         "desc": "As part of my projects, I have to master a lot of different fields, like website creation, data analysis, artificial intelligence, or software creation.",
         "buttonText": "More about skills"
       }
+    },
+    "projects":{
+      "title": "Projects",
+      "desc": "I'm always working on something ! Here is a list of all important projects I worked on :",
+      "project":{
+        "disblock":{
+          "title": "Disblock",
+          "desc": "Disblock is a project about a Discord bot. A large number of users want to customize their Discord servers with bots, but lacks the coding skills. Disblock is a way to assemble easily his own bot using blocks that can describe what to do, and when.",
+          "button_text": "See on Github"
+        }
+      },
+      "tags":{
+        "home": "On my free time",
+        "active": "Active",
+        "bugs_only": "Bug fixes only",
+        "archived": "Archived"
+      }
     }
   },
   "skills": {

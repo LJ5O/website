@@ -24,7 +24,7 @@
         background-color: v-bind(colour);
         width: fit-content;
         height: fit-content;
-        padding: 2px 16px;
+        padding: 2px 8px;
         border-radius: 8px;
     }
     p{

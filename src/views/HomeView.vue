@@ -8,14 +8,6 @@
   import {useI18n} from 'vue-i18n';
   const i18n = useI18n();
 
-  const projects_info = [{
-    picture:"https://picsum.photos/400/300",
-    desc:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin felis lectus, feugiat in eros sit amet, \
-      venenatis euismod urna. Aliquam id porttitor erat, vitae dapibus velit. Praesent id felis tincidunt,",
-    buttonText:"Oui !",
-    buttonLink:"#",
-    tags:[{title:"School", colour:"purple"}]
-  }]
 </script>
 <!-- Want to config displayed text ? Have a look inside components !
  You may also want to check assets/localization files -->
@@ -31,7 +23,7 @@
 
     <intersection style="margin-top: 20px;" text="Lorem ipsum dolor sit amet" button-text="En savoir plus" button-link="#" />
 
-    <projects :projects="projects_info"/>
+    <projects/>
 
 </template>
 
