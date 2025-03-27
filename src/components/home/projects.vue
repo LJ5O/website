@@ -21,6 +21,7 @@
                     <p>{{ e.desc }}</p>
                 </article>
                 <a :href="e.buttonLink" target="_blank"><button class="button project_button">{{ e.buttonText }}</button></a>
+                <a :href="e.button2Link" target="_blank" v-if="e.button2Link"><button class="button project_button_secondary">{{ e.button2Text }}</button></a>
             </div>
         </div>
 
@@ -32,6 +33,7 @@
     import projectTag from './libs/projectTag.vue';
 
     import disblockSvg from "@/assets/svg/projects/disblock.svg";
+    import portfolioImg from "@/assets/img/portfolio.png";
 
     import {useI18n} from 'vue-i18n';
     const i18n = useI18n();
@@ -40,7 +42,9 @@
         home:'#8a1bc8',
         active:'#598609',
         bugs_only:'#7a781f',
-        archived: '#6c5e73'
+        archived: '#6c5e73',
+        school: '#163799',
+        research: '#3ba1c8'
     };
 
     const projctsInfo = [{
@@ -48,9 +52,24 @@
         title: i18n.t("home.projects.project.disblock.title"),
         desc:i18n.t("home.projects.project.disblock.desc"),
         buttonText:i18n.t("home.projects.project.disblock.button_text"),
-        buttonLink:"https://github.com/Disblock/WebApp",
+        buttonLink:"https://disblock.xyz",
+        button2Text:i18n.t("home.projects.project.disblock.button2_text"),
+        button2Link:"https://github.com/Disblock/WebApp",
         tags:[
             {title:i18n.t("home.projects.tags.home"), colour:tagsColours.home},
+            {title:i18n.t("home.projects.tags.bugs_only"), colour:tagsColours.bugs_only}
+        ]
+    },{
+        picture: portfolioImg,
+        title: i18n.t("home.projects.project.portfolio.title"),
+        desc:i18n.t("home.projects.project.portfolio.desc"),
+        buttonText:i18n.t("home.projects.project.portfolio.button_text"),
+        buttonLink:"https://portfolio.taccoen.dev/",
+        button2Text:i18n.t("home.projects.project.portfolio.button2_text"),
+        button2Link:"https://github.com/LJ5O/portfolio",
+        tags:[
+            {title:i18n.t("home.projects.tags.home"), colour:tagsColours.home},
+            {title:i18n.t("home.projects.tags.school"), colour:tagsColours.school},
             {title:i18n.t("home.projects.tags.bugs_only"), colour:tagsColours.bugs_only}
         ]
     }];
@@ -84,7 +103,7 @@
     }
     .project{
         max-width: 400px;
-        max-height: 600px;
+        max-height: fit-content;
         width: 100%;
         height: 100%;
         background-color: #2c2b2b;
@@ -129,5 +148,10 @@
     .project_button{
         background-color: rgb(65, 185, 61);
         font-size: 1.1em;
+    }
+    .project_button_secondary{
+        background-color: rgb(62, 128, 148);
+        font-size: 1.1em;
+        margin-left: 10px;
     }
 </style>
