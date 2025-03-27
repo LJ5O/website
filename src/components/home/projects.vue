@@ -23,6 +23,7 @@
                 <a :href="e.buttonLink" target="_blank" v-if="e.buttonLink"><button class="button project_button">{{ e.buttonText }}</button></a>
                 <a :href="e.button2Link" target="_blank" v-if="e.button2Link"><button class="button project_button_secondary">{{ e.button2Text }}</button></a>
             </div>
+            <p v-if="e.date" class="project_date">{{ e.date }}</p>
         </div>
 
       </div>
@@ -59,7 +60,8 @@
         tags:[
             {title:i18n.t("home.projects.tags.home"), colour:tagsColours.home},
             {title:i18n.t("home.projects.tags.bugs_only"), colour:tagsColours.bugs_only}
-        ]
+        ],
+        date: i18n.t("home.projects.project.disblock.date")
     },{
         picture: portfolioImg,
         title: i18n.t("home.projects.project.portfolio.title"),
@@ -72,7 +74,8 @@
             {title:i18n.t("home.projects.tags.home"), colour:tagsColours.home},
             {title:i18n.t("home.projects.tags.school"), colour:tagsColours.school},
             {title:i18n.t("home.projects.tags.bugs_only"), colour:tagsColours.bugs_only}
-        ]
+        ],
+        date: i18n.t("home.projects.project.portfolio.date")
     },{
         picture: semanticSegmentation,
         title: i18n.t("home.projects.project.semantic_segmentation.title"),
@@ -83,7 +86,8 @@
             {title:i18n.t("home.projects.tags.research"), colour:tagsColours.research},
             {title:i18n.t("home.projects.tags.school"), colour:tagsColours.school},
             {title:i18n.t("home.projects.tags.archived"), colour:tagsColours.archived}
-        ]
+        ],
+        date: i18n.t("home.projects.project.semantic_segmentation.date")
     }];
 </script>
 
@@ -151,7 +155,7 @@
         width: 90%;
         margin: auto;
         font-size: 1.1em;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
         margin-top: 0px;
     }
     .project_description p{
@@ -165,5 +169,14 @@
         background-color: rgb(62, 128, 148);
         font-size: 1.1em;
         margin-left: 10px;
+    }
+
+    .project_date{
+        color:#a1ddc9;
+        width: 90%;
+        margin: auto;
+        margin-top: 0;
+        margin-bottom: 2px;
+        font-size: 0.8em;
     }
 </style>

@@ -30,18 +30,21 @@
           "title": "Disblock",
           "desc": "Disblock is a project about a Discord bot. A large number of users want to customize their Discord servers with bots, but lacks the coding skills. Disblock is a way to assemble easily his own bot using blocks that can describe what to do, and when.",
           "button_text": "Open the project",
-          "button2_text": "See on Github"
+          "button2_text": "See on Github",
+          "date": "Since 2021"
         },
         "portfolio":{
           "title": "Three.js personal website",
           "desc": "As I was a third year student, I was tasked to create a website about everything I had done so far. I decided to use every skill I had to build this project, making myself 3D models and animations using Blender, while three.js is used to render it. Currently, it's not up-to-date !",
           "button_text": "Open the project",
-          "button2_text": "See on Github"
+          "button2_text": "See on Github",
+          "date": "Since November 2023"
         },
         "semantic_segmentation":{
           "title": "Semantic Segmentation",
           "desc": "During my intership at Hachinohe National Institute of Technology, Japan, I was asked to research about Semantic Segmentation using the Oxford-IIIT Pet Dataset, and models like SegNet, U-Net, and DeepLabV3, gaining valuable experience along the way.",
-          "button_text": "More about it"
+          "button_text": "More about it",
+          "date": "From April 2023 to July 2023"
         }
       },
       "tags":{
