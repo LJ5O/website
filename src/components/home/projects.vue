@@ -10,7 +10,7 @@
         <div v-for="(e,i) in projctsInfo" :key="i" class="project">
             
             <h2>{{ e.title }}</h2>
-            <div class="project_picture">
+            <div class="project_picture" v-if="e.picture">
                 <img :src="e.picture">
             </div>
             <div class="project_tags">
@@ -35,7 +35,8 @@
 
     import disblockSvg from "@/assets/svg/projects/disblock.svg";
     import portfolioImg from "@/assets/img/portfolio.png";
-    import semanticSegmentation from '@/assets/img/semantic_segmentation.png';
+    import semanticSegmentationImg from '@/assets/img/semantic_segmentation.png';
+    import videoEditorSegmentationImg from '@/assets/img/video_editor.png';
 
     import {useI18n} from 'vue-i18n';
     const i18n = useI18n();
@@ -77,7 +78,7 @@
         ],
         date: i18n.t("home.projects.project.portfolio.date")
     },{
-        picture: semanticSegmentation,
+        picture: semanticSegmentationImg,
         title: i18n.t("home.projects.project.semantic_segmentation.title"),
         desc:i18n.t("home.projects.project.semantic_segmentation.desc"),
         buttonText:i18n.t("home.projects.project.semantic_segmentation.button_text"),
@@ -88,6 +89,18 @@
             {title:i18n.t("home.projects.tags.archived"), colour:tagsColours.archived}
         ],
         date: i18n.t("home.projects.project.semantic_segmentation.date")
+    },{
+        picture: videoEditorSegmentationImg,
+        title: i18n.t("home.projects.project.video_editor.title"),
+        desc:i18n.t("home.projects.project.video_editor.desc"),
+        buttonText:i18n.t("home.projects.project.video_editor.button_text"),
+        buttonLink:"#",
+        tags:[
+            {title:i18n.t("home.projects.tags.research"), colour:tagsColours.research},
+            {title:i18n.t("home.projects.tags.school"), colour:tagsColours.school},
+            {title:i18n.t("home.projects.tags.archived"), colour:tagsColours.archived}
+        ],
+        date: i18n.t("home.projects.project.video_editor.date")
     }];
 </script>
 

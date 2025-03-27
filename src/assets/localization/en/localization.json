@@ -45,6 +45,12 @@
           "desc": "During my intership at Hachinohe National Institute of Technology, Japan, I was asked to research about Semantic Segmentation using the Oxford-IIIT Pet Dataset, and models like SegNet, U-Net, and DeepLabV3, gaining valuable experience along the way.",
           "button_text": "More about it",
           "date": "From April 2023 to July 2023"
+        },
+        "video_editor":{
+          "title": "Video Editor",
+          "desc": "I went for a second internship to Japan, at Fukushima National Institute of Technology. I assisted the Research team with the study on the perception of temporal seriality with the naked eye. My role was to create software able to perform various essentials transformations on videos.",
+          "button_text": "More about it",
+          "date": "From April 2024 to July 2024"
         }
       },
       "tags":{
