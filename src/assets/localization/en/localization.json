@@ -37,6 +37,11 @@
           "desc": "As I was a third year student, I was tasked to create a website about everything I had done so far. I decided to use every skill I had to build this project, making myself 3D models and animations using Blender, while three.js is used to render it. Currently, it's not up-to-date !",
           "button_text": "Open the project",
           "button2_text": "See on Github"
+        },
+        "semantic_segmentation":{
+          "title": "Semantic Segmentation",
+          "desc": "During my intership at Hachinohe National Institute of Technology, Japan, I was asked to research about Semantic Segmentation using the Oxford-IIIT Pet Dataset, and models like SegNet, U-Net, and DeepLabV3, gaining valuable experience along the way.",
+          "button_text": "More about it"
         }
       },
       "tags":{

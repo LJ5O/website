@@ -20,7 +20,7 @@
                 <article>
                     <p>{{ e.desc }}</p>
                 </article>
-                <a :href="e.buttonLink" target="_blank"><button class="button project_button">{{ e.buttonText }}</button></a>
+                <a :href="e.buttonLink" target="_blank" v-if="e.buttonLink"><button class="button project_button">{{ e.buttonText }}</button></a>
                 <a :href="e.button2Link" target="_blank" v-if="e.button2Link"><button class="button project_button_secondary">{{ e.button2Text }}</button></a>
             </div>
         </div>
@@ -34,6 +34,7 @@
 
     import disblockSvg from "@/assets/svg/projects/disblock.svg";
     import portfolioImg from "@/assets/img/portfolio.png";
+    import semanticSegmentation from '@/assets/img/semantic_segmentation.png';
 
     import {useI18n} from 'vue-i18n';
     const i18n = useI18n();
@@ -71,6 +72,17 @@
             {title:i18n.t("home.projects.tags.home"), colour:tagsColours.home},
             {title:i18n.t("home.projects.tags.school"), colour:tagsColours.school},
             {title:i18n.t("home.projects.tags.bugs_only"), colour:tagsColours.bugs_only}
+        ]
+    },{
+        picture: semanticSegmentation,
+        title: i18n.t("home.projects.project.semantic_segmentation.title"),
+        desc:i18n.t("home.projects.project.semantic_segmentation.desc"),
+        buttonText:i18n.t("home.projects.project.semantic_segmentation.button_text"),
+        buttonLink:"#",
+        tags:[
+            {title:i18n.t("home.projects.tags.research"), colour:tagsColours.research},
+            {title:i18n.t("home.projects.tags.school"), colour:tagsColours.school},
+            {title:i18n.t("home.projects.tags.archived"), colour:tagsColours.archived}
         ]
     }];
 </script>
