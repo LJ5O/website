@@ -11,25 +11,21 @@
                 <dynamicOccupation id="dynamic_occupation" :sentences="occupations" />
               </div>
               <div id="social_networks" class="test">
-                <div class="network">
-                  <img src="https://picsum.photos/50">
-                </div>
-                <div class="network">
-                  <img src="https://picsum.photos/50">
-                </div>
-                <div class="network">
-                  <img src="https://picsum.photos/50">
-                </div>
+                <social v-for="(e,i) in networks" :key="i" :img="e.img" :routerLink="e.routerLink" :link="e.link" />
               </div>
             </div>
-
         </div> <!-- Name div -->
     </div> <!-- Welcome Div -->
 </template>
 
 <script setup>
   import dynamicOccupation from './dynamicOccupation.vue';
+  import social from './libs/social.vue';
   import {useI18n} from 'vue-i18n';
+
+  import mailSvg from '@/assets/img/mail.svg';
+  import lineImg from '@/assets/img/line.png';
+  import githubSvg from '@/assets/img/github.svg';
 
   const i18n = useI18n();
 
@@ -37,6 +33,20 @@
   i18n.t('home.occupation.ai'), i18n.t('home.occupation.fullstack'),
   i18n.t('home.occupation.student')
   ]
+
+  const networks = [{
+      img:githubSvg,
+      routerLink:false,
+      link:"#"
+    },{
+      img:lineImg,
+      routerLink:false,
+      link:"#"
+  },{
+      img:mailSvg,
+      routerLink:true,
+      link:"#"
+    }];
 </script>
 
 <style scoped>
@@ -94,14 +104,6 @@
     height: fit-content;
     display: flex;
     flex-direction: row;
-}
-.network{
-    height: 50px;
-    width: 50px;
-    margin-left: 15px;
-}
-.network img{
-    border-radius: 50%;
 }
 
 </style>

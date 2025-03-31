@@ -5,11 +5,8 @@
       <div id="footer_social_networks">
         <h1>Social networks</h1>
 
-        <a href="#">
-          <div class="footer_social_network_item">
-            <img src="https://picsum.photos/50">
-          </div>
-        </a>
+        <social v-for="(e,i) in networks" :key="i" :img="e.img" 
+          :routerLink="e.routerLink" :link="e.link" class="footer_social_network_item" />
 
       </div>
       
@@ -42,13 +39,29 @@
   </footer>
 </template>
 
-<script>
-export default {
+<script setup>
+  import social from './home/libs/social.vue';
 
-}
+  import mailSvg from '@/assets/img/mail.svg';
+  import lineImg from '@/assets/img/line.png';
+  import githubSvg from '@/assets/img/github.svg';
+
+  const networks = [{
+    img:githubSvg,
+    routerLink:false,
+    link:"#"
+  },{
+    img:lineImg,
+    routerLink:false,
+    link:"#"
+  },{
+    img:mailSvg,
+    routerLink:true,
+    link:"#"
+  }];
 </script>
 
-<style>
+<style scoped>
     footer{
         background-color: #2c2b2b;
         margin-top: 50px;
@@ -87,14 +100,9 @@ export default {
     .footer_social_network_item{
         width: 50px;
         height: 50px;
-        margin: 0;
-        margin-right: 20px;
-        margin-top: 10px;
-    }
-    .footer_social_network_item img{
-        border-radius: 50%;
-        width: 100%;
-        height: 100%;
+        margin: 0 !important;
+        margin-right: 20px !important;
+        margin-top: 10px !important;
     }
 
     #footer_content_links{
