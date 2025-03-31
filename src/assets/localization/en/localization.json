@@ -51,6 +51,12 @@
           "desc": "I went for a second internship to Japan, at Fukushima National Institute of Technology. I assisted the Research team with the study on the perception of temporal seriality with the naked eye. My role was to create software able to perform various essentials transformations on videos.",
           "button_text": "More about it",
           "date": "From April 2024 to July 2024"
+        },
+        "trading_ai":{
+          "title": "Prices prediction AI",
+          "desc": "As part of my Master's degree studies, I am working on a research project, about stock market price prediction. This project is still ongoing, with encouraging results obtained for now.",
+          "button_text": "More about it",
+          "date": "From November 2024 to May 2025"
         }
       },
       "tags":{

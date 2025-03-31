@@ -37,6 +37,7 @@
     import portfolioImg from "@/assets/img/portfolio.png";
     import semanticSegmentationImg from '@/assets/img/semantic_segmentation.png';
     import videoEditorSegmentationImg from '@/assets/img/video_editor.png';
+    import tradingAiImg from '@/assets/img/trading_ai.png';
 
     import {useI18n} from 'vue-i18n';
     const i18n = useI18n();
@@ -77,6 +78,18 @@
             {title:i18n.t("home.projects.tags.bugs_only"), colour:tagsColours.bugs_only}
         ],
         date: i18n.t("home.projects.project.portfolio.date")
+    },{
+        picture: tradingAiImg,
+        title: i18n.t("home.projects.project.trading_ai.title"),
+        desc:i18n.t("home.projects.project.trading_ai.desc"),
+        buttonText:i18n.t("home.projects.project.trading_ai.button_text"),
+        //buttonLink:"#",
+        tags:[
+            {title:i18n.t("home.projects.tags.active"), colour:tagsColours.active},
+            {title:i18n.t("home.projects.tags.research"), colour:tagsColours.research},
+            {title:i18n.t("home.projects.tags.school"), colour:tagsColours.school}
+        ],
+        date: i18n.t("home.projects.project.trading_ai.date")
     },{
         picture: semanticSegmentationImg,
         title: i18n.t("home.projects.project.semantic_segmentation.title"),
