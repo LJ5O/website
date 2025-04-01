@@ -23,10 +23,6 @@
 </script>
   
 <style scoped>
-  #contact_page{
-    /*min-height: 100vh;*/
-  }
-
   #contact_content{
     width: 80%;
     margin: auto;
