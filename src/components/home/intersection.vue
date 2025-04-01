@@ -2,7 +2,7 @@
   <div class="intersection_div">
       <div class="intersection_content test">
         <h2 class="test">{{ props.text }}</h2>
-        <RouterLink :to="buttonLink"><div class="button intersection_button_div test">
+        <RouterLink :to="buttonLink" @click="goToTop"><div class="button intersection_button_div test">
             <p>{{buttonText}}</p>
         </div></RouterLink>
       </div>
@@ -26,6 +26,10 @@ const props = defineProps({
             required: true
         }
     });
+
+    function goToTop(){
+        window.scrollTo(0, 0);
+    }
 </script>
 
 <style scoped>
