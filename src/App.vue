@@ -7,12 +7,16 @@ import GOLbackground from '@/components/GOLbackground.vue';
 <template>
   <GOLbackground />
   
-  <RouterView/>
+  <main>
+    <RouterView/>
+  </main>
 
   <app_footer />
 
 </template>
 
 <style scoped>
-
+  main{
+    flex:1;
+  }
 </style>
