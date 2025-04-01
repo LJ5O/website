@@ -45,7 +45,7 @@
   },{
       img:mailSvg,
       routerLink:true,
-      link:"#"
+      link:"contact"
     }];
 </script>
 

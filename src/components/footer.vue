@@ -27,7 +27,9 @@
       <div id="footer_contact_div">
         <h1>Contact</h1>
         <p>Want to contact me ? Let's have a talk !</p>
-        <div id="footer_contact_button" class="button">Contact</div>
+        <router-link to="contact">
+          <div id="footer_contact_button" class="button">Contact</div>
+        </router-link>
       </div>
 
       <div id="footer_picture">
@@ -40,6 +42,8 @@
 </template>
 
 <script setup>
+  import { RouterLink } from 'vue-router';
+
   import social from './home/libs/social.vue';
 
   import mailSvg from '@/assets/img/mail.svg';
@@ -57,7 +61,7 @@
   },{
     img:mailSvg,
     routerLink:true,
-    link:"#"
+    link:"contact"
   }];
 </script>
 
@@ -157,6 +161,7 @@
         font-size: 1.1em;
         width: 50%;
         margin: auto;
+        color:black;
     }
 
     #footer_little_text{
