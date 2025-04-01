@@ -94,5 +94,30 @@
         "desc": "When working with AI, creating a high-quality dataset for training is vital. Many operations and transformations need to be executed, which require a solid understanding of data management. Some infrasctructures also come with databases containing valuable information, that should be extracted and analysed to extract the best from it."
       }
     }
+  },
+  "contact": {
+    "title": "Send me a message !",
+    "subtitle": "Thanks for your interest ! If you wish to contact me, the easiest way is by Email.",
+    "captcha":{
+      "title": "Sorry, but could you check that you're an human ?",
+      "desc": "Some bots are exploring the web to collect email adresses and send spam. In order to avoid this, please fill the following :",
+      "question": "If we add {x} and {y} minus {z}, what would the result be ?",
+      "submit": "Submit",
+      "false": "Sorry, this doesn't seems right !"
+    },
+    "emails": {
+      "work" :{
+        "title": "Work",
+        "desc": "If your message is about a job opportunity, a company or some professional matter, please use {email}"
+      },
+      "school" :{
+        "title": "Academics and research",
+        "desc": "{email} is the best suited to talk about universities and research."
+      },
+      "others" :{
+        "title": "Other cases",
+        "desc": "In case the two previous emails don't suit your needs, you can also use {email}. This address is considered to be a general purposes one."
+      }
+    }
   }
 }

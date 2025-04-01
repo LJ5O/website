@@ -2,14 +2,16 @@
   <div class="intersection_div">
       <div class="intersection_content test">
         <h2 class="test">{{ props.text }}</h2>
-        <a :href="props.buttonLink"><div class="button intersection_button_div test">
+        <RouterLink :to="buttonLink"><div class="button intersection_button_div test">
             <p>{{buttonText}}</p>
-        </div></a>
+        </div></RouterLink>
       </div>
     </div>
 </template>
 
 <script setup>
+import { RouterLink } from 'vue-router';
+
 const props = defineProps({
         text:{
             type: String,

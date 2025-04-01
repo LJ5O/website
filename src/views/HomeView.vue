@@ -15,7 +15,7 @@
 
     <welcome/>
 
-    <intersection :text="i18n.t('home.contactMe')" :button-text="i18n.t('home.contactButton')" button-link="#"/>
+    <intersection :text="i18n.t('home.contactMe')" :button-text="i18n.t('home.contactButton')" button-link="contact"/>
 
     <presentation/>
 
