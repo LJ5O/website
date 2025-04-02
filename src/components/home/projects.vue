@@ -20,7 +20,8 @@
                 <article>
                     <p>{{ e.desc }}</p>
                 </article>
-                <a :href="e.buttonLink" target="_blank" v-if="e.buttonLink"><button class="button project_button">{{ e.buttonText }}</button></a>
+                <a :href="e.buttonLink" target="_blank" v-if="e.buttonLink && !e.localButton"><button class="button project_button">{{ e.buttonText }}</button></a>
+                <RouterLink :to="{name:e.buttonLink}" v-if="e.buttonLink && e.localButton" @click="goToTop"><button class="button project_button">{{ e.buttonText }}</button></RouterLink>
                 <a :href="e.button2Link" target="_blank" v-if="e.button2Link"><button class="button project_button_secondary">{{ e.button2Text }}</button></a>
             </div>
             <p v-if="e.date" class="project_date">{{ e.date }}</p>
@@ -31,6 +32,7 @@
 </template>
 
 <script setup>
+    import { RouterLink } from 'vue-router';
     import projectTag from './libs/projectTag.vue';
 
     import disblockSvg from "@/assets/svg/projects/disblock.svg";
@@ -57,6 +59,7 @@
         desc:i18n.t("home.projects.project.disblock.desc"),
         buttonText:i18n.t("home.projects.project.disblock.button_text"),
         buttonLink:"https://disblock.xyz",
+        localButton:false,
         button2Text:i18n.t("home.projects.project.disblock.button2_text"),
         button2Link:"https://github.com/Disblock/WebApp",
         tags:[
@@ -70,6 +73,7 @@
         desc:i18n.t("home.projects.project.portfolio.desc"),
         buttonText:i18n.t("home.projects.project.portfolio.button_text"),
         buttonLink:"https://portfolio.taccoen.dev/",
+        localButton:false,
         button2Text:i18n.t("home.projects.project.portfolio.button2_text"),
         button2Link:"https://github.com/LJ5O/portfolio",
         tags:[
@@ -83,6 +87,7 @@
         title: i18n.t("home.projects.project.trading_ai.title"),
         desc:i18n.t("home.projects.project.trading_ai.desc"),
         buttonText:i18n.t("home.projects.project.trading_ai.button_text"),
+        localButton:false,
         //buttonLink:"#",
         tags:[
             {title:i18n.t("home.projects.tags.active"), colour:tagsColours.active},
@@ -95,7 +100,8 @@
         title: i18n.t("home.projects.project.semantic_segmentation.title"),
         desc:i18n.t("home.projects.project.semantic_segmentation.desc"),
         buttonText:i18n.t("home.projects.project.semantic_segmentation.button_text"),
-        buttonLink:"#",
+        buttonLink:"semantic_segmentation",
+        localButton:true,
         tags:[
             {title:i18n.t("home.projects.tags.research"), colour:tagsColours.research},
             {title:i18n.t("home.projects.tags.school"), colour:tagsColours.school},
@@ -108,6 +114,7 @@
         desc:i18n.t("home.projects.project.video_editor.desc"),
         buttonText:i18n.t("home.projects.project.video_editor.button_text"),
         buttonLink:"#",
+        localButton:false,
         tags:[
             {title:i18n.t("home.projects.tags.research"), colour:tagsColours.research},
             {title:i18n.t("home.projects.tags.school"), colour:tagsColours.school},
@@ -115,6 +122,10 @@
         ],
         date: i18n.t("home.projects.project.video_editor.date")
     }];
+
+    function goToTop(){
+        window.scrollTo(0, 0);
+    }
 </script>
 
 <style scoped>

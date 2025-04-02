@@ -1,6 +1,6 @@
 <template>
     <div class="network">
-        <RouterLink v-if="routerLink" :to="link">
+        <RouterLink v-if="routerLink" :to="{name:link}">
             <img :src="img">
         </RouterLink>
         <a v-else :href="link" target="_blank">

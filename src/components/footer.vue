@@ -27,7 +27,7 @@
       <div id="footer_contact_div">
         <h1>Contact</h1>
         <p>Want to contact me ? Let's have a talk !</p>
-        <router-link to="contact">
+        <router-link :to="{ name: 'contact'}">
           <div id="footer_contact_button" class="button">Contact</div>
         </router-link>
       </div>

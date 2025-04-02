@@ -28,13 +28,13 @@ const router = createRouter({
       component: ContactView
     },
     {
-      path: '/about',
-      name: 'about',
+      path: '/project/semantic-segmentation',
+      name: 'semantic_segmentation',
       // route level code-splitting
       // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
-      component: () => import('../views/AboutView.vue'),
-    },
+      component: () => import('../views/projects/semanticSegmentationView.vue'),
+    }
   ],
 })
 

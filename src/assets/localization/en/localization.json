@@ -108,5 +108,11 @@
         "desc": "All of these can go directly here : {user}<>{domain}"
       }
     }
+  },
+  "projects":{
+    "semantic_segmentation":{
+      "title": "Semantic Segmentation",
+      "subtitle": "My first internship in Japan, at Hachinohe National Institute of Technology."
+    }
   }
 }
