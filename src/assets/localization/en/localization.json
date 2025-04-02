@@ -112,7 +112,13 @@
   "projects":{
     "semantic_segmentation":{
       "title": "Semantic Segmentation",
-      "subtitle": "My first internship in Japan, at Hachinohe National Institute of Technology."
+      "subtitle": "My first internship in Japan, at Hachinohe National Institute of Technology.",
+      "content": {
+        "context": {
+          "title": "Some context before begining...",
+          "text": "The picture you can see next to this text is Hachinohe Kosen, the place were I had the chance to go for my very first research internship. I was sent there for a 3 months stay, with some other French students."
+        }
+      }
     }
   }
 }
