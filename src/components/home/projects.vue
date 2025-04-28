@@ -38,7 +38,7 @@
     import disblockSvg from "@/assets/svg/projects/disblock.svg";
     import portfolioImg from "@/assets/img/portfolio.png";
     import semanticSegmentationImg from '@/assets/img/semantic_segmentation.png';
-    import videoEditorSegmentationImg from '@/assets/img/video_editor.png';
+    import videoEditorImg from '@/assets/img/video_editor.png';
     import tradingAiImg from '@/assets/img/trading_ai.png';
 
     import {useI18n} from 'vue-i18n';
@@ -109,12 +109,12 @@
         ],
         date: i18n.t("home.projects.project.semantic_segmentation.date")
     },{
-        picture: videoEditorSegmentationImg,
+        picture: videoEditorImg,
         title: i18n.t("home.projects.project.video_editor.title"),
         desc:i18n.t("home.projects.project.video_editor.desc"),
         buttonText:i18n.t("home.projects.project.video_editor.button_text"),
-        buttonLink:"#",
-        localButton:false,
+        buttonLink:"video_editor",
+        localButton:true,
         tags:[
             {title:i18n.t("home.projects.tags.research"), colour:tagsColours.research},
             {title:i18n.t("home.projects.tags.school"), colour:tagsColours.school},

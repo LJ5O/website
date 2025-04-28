@@ -135,6 +135,18 @@
           "text": "Alongside with the Semantic Segmentation, I was asked to find a way to recognize an human from a webcam stream. I chose the model YoloV5 to implement this functionality, and got some nice results."
         }
       }
+    },
+    "video_editor":{
+      "title": "Video Editor creation",
+      "subtitle": "My second internship in Japan, at Fukushima National Institute of Technology.",
+      "fukushima_kosen": {
+        "title": "About the place",
+        "text": "For this internship, I was accepted at Fukushima Kosen as an help for a research team. I was accompanied by some others French and Finnish students, and hosted in the school dormitory for a 3 months stay."
+      },
+      "perception": {
+        "title": "Research about the perception of temporal seriality with the naked eye",
+        "text": "One of my tasks was to help the research team by imaginating new ways to create sequences that can be easily used in this study. Sequences consisted mainly in videos of small balls falling or waterfalls."
+      }
     }
   }
 }
