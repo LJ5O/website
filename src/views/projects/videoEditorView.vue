@@ -13,6 +13,13 @@
 
       <h2>{{ $t("projects.video_editor.perception.title") }}</h2>
       <p>{{ $t("projects.video_editor.perception.text") }}</p>
+      <doubleRowHolder class="space_around">
+        <img :src="fukushimaKosenExp1Img"/>
+        <img :src="fukushimaKosenExp2Img"/>
+      </doubleRowHolder>
+      <p>{{ $t("projects.video_editor.perception.text2") }}</p>
+
+      <h2>{{ $t("projects.video_editor.software.title") }}</h2>
     </article>
   </template>
 
@@ -22,6 +29,8 @@
 
     import videoEditorImg from '@/assets/img/video_editor.png';
     import fukushimaKosenImg from '@/assets/img/projects/fukushima_kosen.jpg';
+    import fukushimaKosenExp1Img from '@/assets/img/projects/fukushima_exp1.jpg';
+    import fukushimaKosenExp2Img from '@/assets/img/projects/fukushima_exp2.jpg';
 </script>
 
 <style scoped>
@@ -46,6 +55,10 @@
   .doubleRowHolder img{
     min-width: 200px;
     max-width: 400px;
+  }
+  .space_around{
+    margin-top: 15px;
+    margin-bottom: 15px;
   }
 </style>
   

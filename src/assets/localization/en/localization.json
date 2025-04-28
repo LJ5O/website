@@ -145,7 +145,11 @@
       },
       "perception": {
         "title": "Research about the perception of temporal seriality with the naked eye",
-        "text": "One of my tasks was to help the research team by imaginating new ways to create sequences that can be easily used in this study. Sequences consisted mainly in videos of small balls falling or waterfalls."
+        "text": "One of my tasks was to help the research team by imaginating new ways to create sequences that can be easily used in this study. Sequences consisted mainly in videos of small balls falling or waterfalls.",
+        "text2": "Those experiments are filmed using a normal and a slow motion camera. The resulting files are then passed to a small program I made in order to work on the frames."
+      },
+      "software": {
+        "title": "Frames editing software"
       }
     }
   }
