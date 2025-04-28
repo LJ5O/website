@@ -116,7 +116,23 @@
       "content": {
         "context": {
           "title": "Some context before begining...",
-          "text": "The picture you can see next to this text is Hachinohe Kosen, the place were I had the chance to go for my very first research internship. I was sent there for a 3 months stay, with some other French students."
+          "text": "The picture you can see next to this text is Hachinohe Kosen, the place where I had the chance to go for my very first research internship. I was sent there for a 3 months stay, with some other French students."
+        },
+        "semantic": {
+          "title": "Semantic Segmentation models study",
+          "text": "I installed three models on my laptop, Unet, Segnet and DeeplabV3, and trained them using the \"oxford_iiit_pet\" dataset ( from which the pictures on this page come from ). I searched about them and obtained various statistics and results, that I analysed and used to determine which one was the best Semantic Segmentation model back then.",
+          "table": {
+            "model": "Model",
+            "accuracy": "Accuracy",
+            "loss": "Loss",
+            "process_time": "Processing time for one frame",
+            "year": "Release year"
+          },
+          "result": "According to this table, the best model among those I tested was DeeplabV3. It was the one giving the best results according to Accuracy, but is a little slower than Unet."
+        },
+        "human_recognition": {
+          "title": "Human detection",
+          "text": "Along with the Semantic Segmentation, I was asked to find a way to recognize an human from a webcam stream. I chose the model YoloV5 to implement this functionality, and got some nice results."
         }
       }
     }

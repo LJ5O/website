@@ -1,7 +1,7 @@
-* {
+/** {
   overflow-y: hidden;
   overflow-x: hidden;
-}
+}*/
 html{
   background-color: #1E1E1E;
 }
