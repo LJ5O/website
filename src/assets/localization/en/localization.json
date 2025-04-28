@@ -120,7 +120,7 @@
         },
         "semantic": {
           "title": "Semantic Segmentation models study",
-          "text": "I installed three models on my laptop, Unet, Segnet and DeeplabV3, and trained them using the \"oxford_iiit_pet\" dataset ( from which the pictures on this page come from ). I searched about them and obtained various statistics and results, that I analysed and used to determine which one was the best Semantic Segmentation model back then.",
+          "text": "I installed three models on my laptop, Unet, Segnet and DeeplabV3, and trained them using the \"oxford_iiit_pet\" dataset ( from which the cat picture on this page comes from ). I searched about them and obtained various statistics and results, that I analysed and used to determine which one was the best Semantic Segmentation model back then.",
           "table": {
             "model": "Model",
             "accuracy": "Accuracy",
@@ -132,7 +132,7 @@
         },
         "human_recognition": {
           "title": "Human detection",
-          "text": "Along with the Semantic Segmentation, I was asked to find a way to recognize an human from a webcam stream. I chose the model YoloV5 to implement this functionality, and got some nice results."
+          "text": "Alongside with the Semantic Segmentation, I was asked to find a way to recognize an human from a webcam stream. I chose the model YoloV5 to implement this functionality, and got some nice results."
         }
       }
     }

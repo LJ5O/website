@@ -54,6 +54,7 @@
 
       <h2>{{ $t("projects.semantic_segmentation.content.human_recognition.title") }}</h2>
       <p>{{ $t("projects.semantic_segmentation.content.human_recognition.text") }}</p>
+      <img :src="yolov5TestImg" id="yolo_img"/>
     </article>
   </template>
 
@@ -63,6 +64,7 @@
 
     import semanticSegmentationCover from "@/assets/img/semantic_segmentation.png";
     import hachinoheKosenImg from "@/assets/img/projects/hachinohe_kosen.png";
+    import yolov5TestImg from "@/assets/img/projects/yolov5_test.png";
 </script>
 
 <style scoped>
@@ -112,6 +114,11 @@
   }
   table{
     margin: auto;
+  }
+
+  #yolo_img{
+    width: 80%;
+    max-width: 600px;
   }
 </style>
   
