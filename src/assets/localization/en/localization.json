@@ -20,6 +20,11 @@
         "title": "Knowledge and Skills",
         "desc": "As part of my projects, I have to master a lot of different fields, like website creation, data analysis, artificial intelligence, or software creation.",
         "buttonText": "More about skills"
+      },
+      "education":{
+        "title": "Education and certifications",
+        "desc": "I always enjoys learning and discovering new things and concepts. School gave me a lot of precious knowledge which is often useful in my works.",
+        "buttonText": "More about education"
       }
     },
     "projects":{

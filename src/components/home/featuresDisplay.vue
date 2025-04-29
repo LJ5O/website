@@ -18,6 +18,7 @@
 
     import projectsSvg from '@/assets/svg/projets.svg';
     import skillsSvg from '@/assets/svg/skills.svg'
+    import educationSvg from '@/assets/svg/education.svg'
 
     const features = [{
         title: i18n.t("home.features.projects.title"),
@@ -31,6 +32,12 @@
         buttonText: i18n.t("home.features.skills.buttonText"),
         picture: skillsSvg,
         link: "skills"
+    },{
+        title: i18n.t("home.features.education.title"),
+        desc: i18n.t("home.features.education.desc"),
+        buttonText: i18n.t("home.features.education.buttonText"),
+        picture: educationSvg,
+        link: "education"
     }];
 </script>
 
