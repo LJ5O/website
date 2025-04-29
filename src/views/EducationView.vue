@@ -7,7 +7,17 @@
       <p>{{ $t("education.introduction") }}</p> 
 
         <schoolDisplay :name="schools[0].name" :desc="schools[0].desc" :img="schools[0].img" :link="schools[0].link"/>
-        <diploma text="Brevet des collèges"/>
+        <diploma :text='i18n.t("education.diplomas.junior_high_school")' class="diploma_display"/>
+
+        <schoolDisplay :name="schools[1].name" :desc="schools[1].desc" :img="schools[1].img" :link="schools[1].link"/>
+        <diploma :text='i18n.t("education.diplomas.high_school")' class="diploma_display"/>
+
+        <schoolDisplay :name="schools[2].name" :desc="schools[2].desc" :img="schools[2].img" :link="schools[2].link"/>
+        <diploma :text='i18n.t("education.diplomas.bachelor")' class="diploma_display"/>
+
+        <schoolDisplay :name="schools[3].name" :desc="schools[3].desc" :img="schools[3].img" :link="schools[3].link"/>
+        <diploma :text='i18n.t("education.diplomas.master")' class="diploma_display"/>
+
     </article>
 
   </template>
@@ -23,10 +33,25 @@
   const i18n = useI18n();
 
   const schools = [{
-    name: "Ensemble Scolaire",
-    desc: "Yes",
+    name: i18n.t("education.schools.middle.name"),
+    desc: i18n.t("education.schools.middle.desc"),
     img: "https://picsum.photos/600/400",
-    link: "A.com"
+    link: "https://lasallecoudekerque.com/"
+  },{
+    name: i18n.t("education.schools.high.name"),
+    desc: i18n.t("education.schools.high.desc"),
+    img: "https://picsum.photos/600/400",
+    link: "https://www.epid-vauban.fr/"
+  },{
+    name: i18n.t("education.schools.bachelor.name"),
+    desc: i18n.t("education.schools.bachelor.desc"),
+    img: "https://picsum.photos/600/400",
+    link: "https://www.iut-littoral.fr/"
+  },{
+    name: i18n.t("education.schools.master.name"),
+    desc: i18n.t("education.schools.master.desc"),
+    img: "https://picsum.photos/600/400",
+    link: "https://www.univ-littoral.fr/"
   }];
 
   /*const skills = [{
@@ -74,6 +99,9 @@
   article{
     width: 80%;
     margin: auto;
+  }
+  .diploma_display{
+    margin-bottom: 30px;
   }
   
 </style>

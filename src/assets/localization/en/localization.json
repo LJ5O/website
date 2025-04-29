@@ -103,7 +103,31 @@
   "education": {
     "title": "Education and certifications",
     "subtitle": "The steps for my learning journey",
-    "introduction": "Before reaching my current level, I had a long time learning various concepts in some nice institutions who accepted me as a student. I'm really grateful towards all of them, as I wouldn't be like I am without their help."
+    "introduction": "Before reaching my current level, I had a long time learning various concepts in some nice institutions who accepted me as a student. I'm really grateful towards all of them, as I wouldn't be like I am without their help.",
+    "schools": {
+      "middle": {
+        "name": "Middle school : Ensemble Scolaire de La Salle",
+        "desc": "Middle school was were my interest for IT and computers first awaken. Back then, I had a Mathematics teacher deeply involved in the network administration who made really interesting coding introductions."
+      },
+      "high": {
+        "name": "High school : EPID",
+        "desc": "At EPID, I had lectures about IT twice a week, where I learnt the bacics of web development, Python, Mysql and some simple algorithms. This is where I really learned how to code and use a computer."
+      },
+      "bachelor": {
+        "name": "Calais IUT",
+        "desc": "As I was pretty good with computers, I headed for a Computer Science bachelor at Calais IUT. I was delighted to learn so much about this field everyday, and also got the chance to go twite to Japan for internships in research labs."
+      },
+      "master": {
+        "name": "ULCO, IT department",
+        "desc": "My current formation, and the logic next step. I'm discovering there the basics to Artificial Intelligence, data scientist things and optimizing algorithms and problem solving systems."
+      }
+    },
+    "diplomas": {
+      "junior_high_school": "Junior High School Diploma",
+      "high_school": "High School Diploma",
+      "bachelor": "Bachelor's degree ( Computer Science )",
+      "master": "Soon : Master's degree ( Computer Science )"
+    }
   },
   "contact": {
     "title": "Send me a message !",
