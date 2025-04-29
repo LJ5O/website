@@ -29,6 +29,10 @@ a:visited{
   text-align: center;
 }
 
+.subtitle{
+  font-size: 1.3em;
+}
+
 #app{
   height: 100%;
   margin: 0;

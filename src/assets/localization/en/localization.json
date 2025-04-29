@@ -100,6 +100,11 @@
       }
     }
   },
+  "education": {
+    "title": "Education and certifications",
+    "subtitle": "The steps for my learning journey",
+    "introduction": "Before reaching my current level, I had a long time learning various concepts in some nice institutions who accepted me as a student. I'm really grateful towards all of them, as I wouldn't be like I am without their help."
+  },
   "contact": {
     "title": "Send me a message !",
     "subtitle": "Thanks for your interest ! If you want to contact me, the easiest way is by Email.",
