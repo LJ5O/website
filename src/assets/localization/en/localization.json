@@ -149,7 +149,13 @@
         "text2": "Those experiments are filmed using a normal and a slow motion camera. The resulting files are then passed to a small program I made in order to work on the frames."
       },
       "software": {
-        "title": "Frames editing software"
+        "title": "Frames editing software",
+        "text": "I created a simple software that allowed researchers to edit quickly the experiments videos. The program was basically a GUI over ffmpeg, allowing users to alter the temporality by reversing or randomizing frames order, and recreating the edited file.",
+        "text2": "Here is an example of a frame coming from some files we worked on. Once assembled into a video file again, we were able to conduct some experiment about the perception of temporal seriality using the naked eye."
+      },
+      "data_recovery": {
+        "title": "Data recovery",
+        "text": "Unfortunately, at some point, the laptop containing a part of the research data broke, and I did by best to recover the lost files. Working tirelessly, I tried a lot of different recovery tools, until realizing the hard drive is encrypted using Microsoft's Bitlocker. This security is enabled by default on a large part of new laptops using Windows, and nobody in the team ever heard about it. Without any recovery key (not saved in Microsoft account !), the files were sadly definitively lost. This is the reason why I removed Windows from all my computers, and started using Linux daily."
       }
     }
   }

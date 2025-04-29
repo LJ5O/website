@@ -20,6 +20,18 @@
       <p>{{ $t("projects.video_editor.perception.text2") }}</p>
 
       <h2>{{ $t("projects.video_editor.software.title") }}</h2>
+      <doubleRowHolder>
+        <p>{{ $t("projects.video_editor.software.text") }}</p>
+        <img :src="videoEditorImg"/>
+      </doubleRowHolder>
+      <doubleRowHolder class="space_around">
+        <p>{{ $t("projects.video_editor.software.text2") }}</p>
+        <img :src="videoSampleImg"/>
+      </doubleRowHolder>
+
+      <h2>{{ $t("projects.video_editor.data_recovery.title") }}</h2>
+      <p>{{ $t("projects.video_editor.data_recovery.text") }}</p>
+
     </article>
   </template>
 
@@ -27,7 +39,8 @@
     import Header from '@/components/header.vue';
     import doubleRowHolder from '@/components/doubleRowHolder.vue';
 
-    import videoEditorImg from '@/assets/img/video_editor.png';
+    import videoSampleImg from '@/assets/img/video_sample.png';
+    import videoEditorImg from '@/assets/img/projects/video_editor.png';
     import fukushimaKosenImg from '@/assets/img/projects/fukushima_kosen.jpg';
     import fukushimaKosenExp1Img from '@/assets/img/projects/fukushima_exp1.jpg';
     import fukushimaKosenExp2Img from '@/assets/img/projects/fukushima_exp2.jpg';

@@ -38,7 +38,7 @@
     import disblockSvg from "@/assets/svg/projects/disblock.svg";
     import portfolioImg from "@/assets/img/portfolio.png";
     import semanticSegmentationImg from '@/assets/img/semantic_segmentation.png';
-    import videoEditorImg from '@/assets/img/video_editor.png';
+    import videoEditorImg from '@/assets/img/video_sample.png';
     import tradingAiImg from '@/assets/img/trading_ai.png';
 
     import {useI18n} from 'vue-i18n';
