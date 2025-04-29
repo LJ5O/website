@@ -74,12 +74,15 @@
     .school_about{
         margin: 0;
     }
+    .school_info a{
+        width: 150px;
+    }
     .school_info button{
         margin-top: 15px;
         margin-block: 15px;
         background-color: rgb(51, 143, 230);
         font-size: 1.1em;
-        width: 150px;
+        width: 100%;
         color:black;
     }
 </style>
