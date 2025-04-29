@@ -7,6 +7,7 @@
       <p>{{ $t("education.introduction") }}</p> 
 
         <schoolDisplay :name="schools[0].name" :desc="schools[0].desc" :img="schools[0].img" :link="schools[0].link"/>
+        <diploma text="Brevet des collèges"/>
     </article>
 
   </template>
@@ -16,6 +17,7 @@
 
   import Header from '@/components/header.vue';
   import schoolDisplay from '@/components/education/schoolDisplay.vue';
+  import diploma from '@/components/education/diploma.vue';
   import SkillsList from '@/components/skills/skillsList.vue';
 
   const i18n = useI18n();
