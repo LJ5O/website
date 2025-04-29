@@ -2,7 +2,7 @@
     <Header/>
     <div id="title_div">
       <h1>{{ $t("projects.video_editor.title") }}</h1>
-      <p>{{ $t("projects.video_editor.subtitle") }}</p>
+      <p class="subtitle">{{ $t("projects.video_editor.subtitle") }}</p>
     </div>
     <article>
       <h2>{{ $t("projects.video_editor.fukushima_kosen.title") }}</h2>

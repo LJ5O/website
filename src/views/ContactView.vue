@@ -6,7 +6,7 @@
         
         <div id="contact_content_text">
           <h1>{{ $t("contact.title") }}</h1>
-          <p>{{ $t("contact.subtitle") }}</p>
+          <p class="subtitle">{{ $t("contact.subtitle") }}</p>
           <h2>{{ $t("contact.emails.research.title") }}</h2>
           <p>{{ $t("contact.emails.research.desc", {user:"a", domain:"b"}) }}</p>
           <h2>{{ $t("contact.emails.work.title") }}</h2>

@@ -2,7 +2,7 @@
     <Header/>
     <div id="title_div">
       <h1>{{ $t("projects.semantic_segmentation.title") }}</h1>
-      <p>{{ $t("projects.semantic_segmentation.subtitle") }}</p>
+      <p class="subtitle">{{ $t("projects.semantic_segmentation.subtitle") }}</p>
       <img :src="semanticSegmentationCover"/> 
     </div>
     <article>

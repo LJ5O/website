@@ -1,7 +1,7 @@
 <template>
     <Header/>
     <h1 class="center">{{ $t("skills.title") }}</h1>
-    <p class="center content">{{ $t("skills.subtitle") }}</p>
+    <p class="center content subtitle">{{ $t("skills.subtitle") }}</p>
 
     <SkillsList v-for="(e,i) in skills" :key="i" :title="e.title" :desc="e.desc" :buttonText="e.buttonText" :link="e.link" :picture="e.picture" class="factList"/>
   </template>
