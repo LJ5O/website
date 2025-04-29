@@ -151,7 +151,7 @@
       "software": {
         "title": "Frames editing software",
         "text": "I created a simple software that allowed researchers to edit quickly the experiments videos. The program was basically a GUI over ffmpeg, allowing users to alter the temporality by reversing or randomizing frames order, and recreating the edited file.",
-        "text2": "Here is an example of a frame coming from some files we worked on. Once assembled into a video file again, we were able to conduct some experiment about the perception of temporal seriality using the naked eye."
+        "text2": "Here is an example of a frame coming from some files we worked on. Once assembled into a video file again, we were able to conduct some experiments about the perception of temporal seriality using the naked eye."
       },
       "data_recovery": {
         "title": "Data recovery",
