@@ -7,7 +7,7 @@
         <div class="school_info">
             <p class="school_name">{{ name }}</p>
             <p class="school_about">{{ desc }}</p>
-            <a :href="link" v-if="link!=undefined"><button class="button">Website</button></a>
+            <a :href="link" v-if="link!=undefined" target="__blank"><button class="button">Website</button></a>
         </div>
     </div>
 </template>
@@ -44,6 +44,7 @@
         flex-wrap: wrap;
         /*align-items: center;*/
         justify-content: center;
+        border-radius: 8px;
     }
 
     .school_picture{

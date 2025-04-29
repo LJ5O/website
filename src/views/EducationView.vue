@@ -6,8 +6,7 @@
     <article>
       <p>{{ $t("education.introduction") }}</p> 
 
-        <schoolDisplay name="My school" desc="Before reaching my current level, I had a long time learning various concepts in some nice institutions who accepted me as a student. I'm really grateful towards all of them, as I wouldn't be like I am without their help." 
-        img="https://picsum.photos/600/400"/>
+        <schoolDisplay :name="schools[0].name" :desc="schools[0].desc" :img="schools[0].img" :link="schools[0].link"/>
     </article>
 
   </template>
@@ -20,6 +19,13 @@
   import SkillsList from '@/components/skills/skillsList.vue';
 
   const i18n = useI18n();
+
+  const schools = [{
+    name: "Ensemble Scolaire",
+    desc: "Yes",
+    img: "https://picsum.photos/600/400",
+    link: "A.com"
+  }];
 
   /*const skills = [{
     title: i18n.t("skills.skills.ai.title"),
