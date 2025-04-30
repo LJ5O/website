@@ -32,8 +32,16 @@
         </router-link>
       </div>
 
-      <div id="footer_picture">
-        <img src="https://picsum.photos/50/50">
+      <div id="footer_right_div">
+        <div id="footer_picture">
+          <img src="https://picsum.photos/50/50">
+        </div>
+        <div id="language_selection_div">
+          <img :src="frFlagSvg" @click="changeLanguage('fr')"/>
+          <img :src="ukFlagSvg" @click="changeLanguage('en')"/>
+          <img :src="usFlagSvg" @click="changeLanguage('en')"/>
+          <img :src="jpFlagSvg" @click="changeLanguage('ja')"/>
+        </div>
       </div>
 
     </div> <!-- Footer content -->
@@ -50,6 +58,14 @@
   import lineImg from '@/assets/img/line.png';
   import githubSvg from '@/assets/img/github.svg';
 
+  import frFlagSvg from '@/assets/svg/language/FR_flag.svg';
+  import jpFlagSvg from '@/assets/svg/language/JP_flag.svg';
+  import ukFlagSvg from '@/assets/svg/language/UK_flag.svg';
+  import usFlagSvg from '@/assets/svg/language/US_flag.svg';
+
+  import {useI18n} from 'vue-i18n';
+  const i18n = useI18n();
+
   const networks = [{
     img:githubSvg,
     routerLink:false,
@@ -63,6 +79,11 @@
     routerLink:true,
     link:"contact"
   }];
+
+  const changeLanguage = (lang)=>{
+    document.cookie = "localeCookie="+lang;
+    location.reload(); // So everything can reload with the new cookie, and a new display language
+  }
 </script>
 
 <style scoped>
@@ -169,14 +190,33 @@
         margin: 0;
         margin-left: 20px;
     }
+    #footer_right_div{
+        width: fit-content;
+        min-width: 100px;
+        min-height: 100px;
+        margin-left: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+    }
     #footer_picture{
+      text-align: center;
+    }
+    #footer_picture > img{
         width: 100px;
         height: 100px;
-        margin-left: auto;
-        border: 2px green dotted;
     }
-    #footer_picture img{
-        width: 100%;
-        height: 100%;
+    #language_selection_div{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      min-width: fit-content;
+      gap: 7px;
+    }
+    #language_selection_div img{
+      width: 50px;
+      height: 50px;
+      cursor: pointer;
     }
 </style>

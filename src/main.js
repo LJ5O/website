@@ -11,17 +11,31 @@ import fr from "./assets/localization/fr/localization.json";
 import en from "./assets/localization/en/localization.json";
 import ja from "./assets/localization/ja/localization.json";
 
-let userLanguage = navigator.language || navigator.userLanguage;
+function getCookie(cname) {
+  let name = cname + "=";
+  let decodedCookie = decodeURIComponent(document.cookie);
+  let ca = decodedCookie.split(';');
+  for(let i = 0; i <ca.length; i++) {
+    let c = ca[i];
+    while (c.charAt(0) == ' ') {
+      c = c.substring(1);
+    }
+    if (c.indexOf(name) == 0) {
+      return c.substring(name.length, c.length);
+    }
+  }
+  return "";
+}
+
+let userLanguage = getCookie("localeCookie") || navigator.language || navigator.userLanguage;
 
 if(userLanguage.split("-")[0] == "fr") userLanguage = "fr";
 else if(userLanguage.split("-")[0] == "jp" || userLanguage.split("-")[0] == "ja") userLanguage = "ja";
 else userLanguage = "en";
 
-console.warn("Locale forced to english !");
-
 const i18n = createI18n({
     legacy:false,
-    locale: 'en',//userLanguage,
+    locale: userLanguage,//'en',
     fallbackLocale: 'en',
     messages: {
       en: en,
