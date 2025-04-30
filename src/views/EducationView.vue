@@ -30,27 +30,32 @@
   import diploma from '@/components/education/diploma.vue';
   import SkillsList from '@/components/skills/skillsList.vue';
 
+  import iutImg from '@/assets/img/schools/iut.png';
+  import middleImg from '@/assets/img/schools/middle.png';
+  import highImg from '@/assets/img/schools/high.png';
+  import ulcoImg from '@/assets/img/schools/ulco.png';
+
   const i18n = useI18n();
 
   const schools = [{
     name: i18n.t("education.schools.middle.name"),
     desc: i18n.t("education.schools.middle.desc"),
-    img: "https://picsum.photos/600/400",
+    img: middleImg,
     link: "https://lasallecoudekerque.com/"
   },{
     name: i18n.t("education.schools.high.name"),
     desc: i18n.t("education.schools.high.desc"),
-    img: "https://picsum.photos/600/400",
+    img: highImg,
     link: "https://www.epid-vauban.fr/"
   },{
     name: i18n.t("education.schools.bachelor.name"),
     desc: i18n.t("education.schools.bachelor.desc"),
-    img: "https://picsum.photos/600/400",
+    img: iutImg,
     link: "https://www.iut-littoral.fr/"
   },{
     name: i18n.t("education.schools.master.name"),
     desc: i18n.t("education.schools.master.desc"),
-    img: "https://picsum.photos/600/400",
+    img: ulcoImg,
     link: "https://www.univ-littoral.fr/"
   }];
 
