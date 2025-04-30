@@ -1,5 +1,196 @@
 {
-    "message": {
-      "hello": "BONJOUR"
+  "home":{
+    "greeting": "Bonjour ! Je suis Kévin Taccoen !",
+    "occupation": {
+      "ai":"Adepte de l'IA",
+      "fullstack":"Développeur Full-Stack",
+      "student":"Etudiant en Master Informatique"
+    },
+    "presentationTitle":"Merci pour la visite !",
+    "presentationText": "Salut ! Je suis Kévin Taccoen, un étudiant en Master informatique au sein de l'<a href=\"\" target=\"_blank\" rel=\"noopener\">Université du Litoral Côte d'Opale</a>. Je m'intéresse beaucoup aux nouvelles technologies, et leur potentiel de forger l'Avenir.<br>Je fais souvent des expériences avec de l'Intelligence Artificielle, ainsi que de nombreux projets en utilisant mes compétences en développement full-stack, conception de logiciel ou analyse de données.",
+    "contactMe": "Une question ? Vous pouvez m'envoyer un message par ici !",
+    "contactButton": "Contact",
+    "features": {
+      "projects":{
+        "title": "Toujours occupé sur des projets innovants !",
+        "desc": "Que ce soit pour mes études pour sur mon temps libre, je travaille toujours sur de nouveaux projets. J'aime voir comment ces lignes de code peuvent contribuer à améliorer le quotidien, ou faire progresser la Science, et je m'attèle à toujours imaginer, créer et maintenir des choses utiles.",
+        "buttonText": "Vers les projets"
+      },
+      "skills":{
+        "title": "Compétences et capacités techniques",
+        "desc": "Dans le cadre de mes projets, je dois maîtriser tout un ensemble de technologies, comme la création de sites web, l'analyse de données, l'IA, ou la création de logiciels...",
+        "buttonText": "Technologies que j'utilise"
+      },
+      "education":{
+        "title": "Parcours d'apprentissage",
+        "desc": "J'apprécie beaucoup découvrir et comprendre de nouvelles choses et concepts. Les différentes formations que j'ai suivies m'ont apportées un savoir précieux dans le cadre de mon travail.",
+        "buttonText": "Plus sur mon parcours"
+      }
+    },
+    "projects":{
+      "title": "Projets",
+      "desc": "Je développe toujours sur quelque chose de nouveau ! Voici une liste de tous les principaux projets sur lesquels j'ai travaillé :",
+      "project":{
+        "disblock":{
+          "title": "Disblock",
+          "desc": "Disblock est un projet à la base d'un bot sur Discord. Beaucoup d'utilisateurs veulent personnaliser leur serveur, mais n'ont pas les compétences de codage. Disblock est un moyen de rapidement assembler son propre agent automatisé, en emboîtant des blocs qui décrivent que faire, et quand.",
+          "button_text": "Site web du projet",
+          "button2_text": "Voir sur GitHub",
+          "date": "Depuis 2021"
+        },
+        "portfolio":{
+          "title": "Portfolio Three.js",
+          "desc": "Lors de ma troisième année d'informatique, j'ai été chargé de créer un site web présentant tout ce que j'avais réalisé jusqu'ici. J'ai décidé de mobiliser l'ensemble de mes capacités, en créant moi-même les modèles 3D et animations via Blender, tout en utilisant three.js pour les afficher à l'écran. Ce n'est pas à jour de mes dernières activités !",
+          "button_text": "Site web du projet",
+          "button2_text": "Voir sur GitHub",
+          "date": "Depuis novembre 2023"
+        },
+        "semantic_segmentation":{
+          "title": "Segmentation sémantique",
+          "desc": "Lors de mon stage à l'Institut National de Technologie de Hachinohe, Japon, il m'a été demandé de faire quelques recherches sur la segmentation sémantique, en utilisant le jeu de données \"Oxford-IIIT Pet Dataset\", et des modèles d'IA comme SegNet, U-Net, et DeepLabV3, ce qui m'a apporté beaucoup de savoir-faire au passage.",
+          "button_text": "En savoir plus",
+          "date": "D'avril à juillet 2023"
+        },
+        "video_editor":{
+          "title": "Logiciel d'édition vidéo",
+          "desc": "J'ai été faire un second stage au Japon, cette fois à l'Institut National de Technologie de Fukushima. J'ai accompagné l'équipe de recherche dans ses travaux sur la perception de la sérialité temporelle à l'œil nu. Mon objectif principal a été de faire un logiciel capable de faire diverses transformations sur des fichiers vidéo.",
+          "button_text": "En savoir plus",
+          "date": "D'avril à juillet 2024"
+        },
+        "trading_ai":{
+          "title": "Prédiction des cours avec l'Intelligence Artificielle",
+          "desc": "Dans le cadre de mon Master, je travaille sur un projet concernant la prédiction des prix futurs des marchés boursiers. Ce projet est toujours en cours, avec des résultats encourageants obtenus pour le moment.",
+          "button_text": "En savoir plus",
+          "date": "De novembre 2024 à mai 2025"
+        }
+      },
+      "tags":{
+        "home": "Projet personnel",
+        "school": "Dans le cadre de mes études",
+        "research": "Projet de recherche",
+        "active": "Développement actif",
+        "bugs_only": "Corrections seulement",
+        "archived": "Archivé"
+      }
+    }
+  },
+  "skills": {
+    "title": "Compétences et capacités techniques",
+    "subtitle": "A force de travailler sur différents sujets, j'ai appris à me servir de nombreuses technologies. Comme les années et les missions passent, je m'efforce à toujours en découvrir plus et de faire bon usage de mes compétences. Voici quelques exemples de technologies auxquelles j'ai déjà eu affaire :",
+    "skills":{
+      "ai":{
+        "title": "Intelligence Artificielle",
+        "desc":"L'IA est un sujet très actif en informatique, et tout en restant informé des dernières découvertes, je passe beaucoup de temps sur des projets IA, en utilisant principalement Tensorflow et des modèles de langage."
+      },
+      "web":{
+        "title": "Développement sites & applications Web",
+        "desc": "Les sites et les APIs sont des outils essentiels pour communiquer et partager de l'information entre personnes et services. Maîtriser la création et la maintenance de telles applications est essentiel dans mes travaux."
+      },
+      "low_level":{
+        "title": "Programmation bas niveau",
+        "desc": "Certaines applications et algorithmes ont besoin d'être optimisés et rapides. C'est là que les languages comme C, C++ ou Rust sont pratiques. J'écris par moment des programmes conçus pour donner des résultats rapides quand j'étudie des algorithmes."
+      },
+      "devops":{
+        "title": "DevOps et déploiement",
+        "desc": "Aussi bien qu'un site ou une application soit développée, si ce n'est pas hébergé et accessible sur Internet, c'est tout de même inutile ! Une bonne compréhension des meilleures pratiques de la mise en ligne est vitale pour créer quelque chose, de la page blanche au serveur de production."
+      },
+      "data":{
+        "title": "Analyse des données",
+        "desc": "En travaillant avec des IAs, créer un jeu de données de haute qualité pour l'entraînement est vital. Beaucoup d'opérations et de transformations ont besoin d'être éxécutées, ce qui requiert une solide compréhension de la gestion de données. Certaines infrastructures utilisent aussi des bases de données, contenant de précieuses informations, qui doivent être extraites et analysées pour en tirer le meilleur."
+      }
+    }
+  },
+  "education": {
+    "title": "Education and certifications",
+    "subtitle": "The steps for my learning journey",
+    "introduction": "Before reaching my current level, I had a long time learning various concepts in some nice institutions who accepted me as a student. I'm really grateful towards all of them, as I wouldn't be like I am without their help.",
+    "schools": {
+      "middle": {
+        "name": "Middle school : Ensemble Scolaire de La Salle",
+        "desc": "Middle school was were my interest for IT and computers first awaken. Back then, I had a Mathematics teacher deeply involved in the network administration who made really interesting coding introductions."
+      },
+      "high": {
+        "name": "High school : EPID",
+        "desc": "At EPID, I had lectures about IT twice a week, where I learnt the bacics of web development, Python, Mysql and some simple algorithms. This is where I really learned how to code and use a computer."
+      },
+      "bachelor": {
+        "name": "Calais IUT",
+        "desc": "As I was pretty good with computers, I headed for a Computer Science bachelor at Calais IUT. I was delighted to learn so much about this field everyday, and also got the chance to go twite to Japan for internships in research labs."
+      },
+      "master": {
+        "name": "ULCO University, Computer Science department",
+        "desc": "My current formation, and the logic next step. I'm discovering there the basics to Artificial Intelligence, data scientist things and optimizing algorithms and problem solving systems."
+      }
+    },
+    "diplomas": {
+      "junior_high_school": "Junior High School Diploma",
+      "high_school": "High School Diploma",
+      "bachelor": "Bachelor's degree ( Computer Science )",
+      "master": "Soon : Master's degree ( Computer Science )"
+    }
+  },
+  "contact": {
+    "title": "Send me a message !",
+    "subtitle": "Thanks for your interest ! If you want to contact me, the easiest way is by Email.",
+    "emails": {
+      "research": {
+        "title": "About studies or research",
+        "desc": "If you want to talk about school or research made as part of my studies, please use {user}<That email Symbol>{domain}."
+      },
+      "work": {
+        "title": "Work, jobs, others",
+        "desc": "All of these can go directly here : {user}<>{domain}"
+      }
+    }
+  },
+  "projects":{
+    "semantic_segmentation":{
+      "title": "Semantic Segmentation",
+      "subtitle": "My first internship in Japan, at Hachinohe National Institute of Technology.",
+      "content": {
+        "context": {
+          "title": "Some context before begining...",
+          "text": "The picture you can see next to this text is Hachinohe Kosen, the place where I had the chance to go for my very first research internship. I was sent there for a 3 months stay, with some other French students."
+        },
+        "semantic": {
+          "title": "Semantic Segmentation models study",
+          "text": "I installed three models on my laptop, Unet, Segnet and DeeplabV3, and trained them using the \"oxford_iiit_pet\" dataset ( from which the cat picture on this page comes from ). I searched about them and obtained various statistics and results, that I analysed and used to determine which one was the best Semantic Segmentation model back then.",
+          "table": {
+            "model": "Model",
+            "accuracy": "Accuracy",
+            "loss": "Loss",
+            "process_time": "Processing time for one frame",
+            "year": "Release year"
+          },
+          "result": "According to this table, the best model among those I tested was DeeplabV3. It was the one giving the best results according to Accuracy, but is a little slower than Unet."
+        },
+        "human_recognition": {
+          "title": "Human detection",
+          "text": "Alongside with the Semantic Segmentation, I was asked to find a way to recognize an human from a webcam stream. I chose the model YoloV5 to implement this functionality, and got some nice results."
+        }
+      }
+    },
+    "video_editor":{
+      "title": "Video Editor creation",
+      "subtitle": "My second internship in Japan, at Fukushima National Institute of Technology.",
+      "fukushima_kosen": {
+        "title": "About the place",
+        "text": "For this internship, I was accepted at Fukushima Kosen as an help for a research team. I was accompanied by some others French and Finnish students, and hosted in the school dormitory for a 3 months stay."
+      },
+      "perception": {
+        "title": "Research about the perception of temporal seriality with the naked eye",
+        "text": "One of my tasks was to help the research team by imaginating new ways to create sequences that can be easily used in this study. Sequences consisted mainly in videos of small balls falling or waterfalls.",
+        "text2": "Those experiments are filmed using a normal and a slow motion camera. The resulting files are then passed to a small program I made in order to work on the frames."
+      },
+      "software": {
+        "title": "Frames editing software",
+        "text": "I created a simple software that allowed researchers to edit quickly the experiments videos. The program was basically a GUI over ffmpeg, allowing users to alter the temporality by reversing or randomizing frames order, and recreating the edited file.",
+        "text2": "Here is an example of a frame coming from some files we worked on. Once assembled into a video file again, we were able to conduct some experiments about the perception of temporal seriality using the naked eye."
+      },
+      "data_recovery": {
+        "title": "Data recovery",
+        "text": "Unfortunately, at some point, the laptop containing a part of the research data broke, and I did by best to recover the lost files. Working tirelessly, I tried a lot of different recovery tools, until realizing the hard drive is encrypted using Microsoft's Bitlocker. This security is enabled by default on a large part of new laptops using Windows, and nobody in the team ever heard about it. Without any recovery key (not saved in Microsoft account !), the files were sadly definitively lost. This is the reason why I removed Windows from all my computers, and started using Linux daily."
+      }
     }
   }
+}
