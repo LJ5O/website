@@ -12,6 +12,7 @@ import en from "./assets/localization/en/localization.json";
 import ja from "./assets/localization/ja/localization.json";
 
 function getCookie(cname) {
+  // Thanks https://www.w3schools.com/js/js_cookies.asp
   let name = cname + "=";
   let decodedCookie = decodeURIComponent(document.cookie);
   let ca = decodedCookie.split(';');
