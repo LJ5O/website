@@ -10,7 +10,7 @@
 
       </div>
       
-      <nav id="footer_content_links">
+      <!--<nav id="footer_content_links">
         <h1>{{$t("footer.sitemap")}}</h1>
 
         <div class="footer_links_box">
@@ -22,7 +22,7 @@
           </ul>
         </div>
 
-      </nav> <!-- Footer content links -->
+      </nav>--> <!-- Footer content links -->
 
       <div id="footer_contact_div">
         <h1>{{$t("footer.contact")}}</h1>
@@ -164,7 +164,7 @@
     }
 
     #footer_contact_div{
-        width: 15%;
+        width: 16%;
         min-width: 160px;
     }
     #footer_contact_div h1{
