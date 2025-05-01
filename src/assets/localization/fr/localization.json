@@ -101,95 +101,95 @@
     }
   },
   "education": {
-    "title": "Education and certifications",
-    "subtitle": "The steps for my learning journey",
-    "introduction": "Before reaching my current level, I had a long time learning various concepts in some nice institutions who accepted me as a student. I'm really grateful towards all of them, as I wouldn't be like I am without their help.",
+    "title": "Parcours d'apprentissage",
+    "subtitle": "Mon parcours d'apprentissage",
+    "introduction": "Avant d'atteindre mon niveau actuel, j'ai longtemps appris au sein de diversese institutions qui m'ont acceptées en tant qu'étudiant. Je leur en suis très reconnaissant, car je n'aurai jamais pu découvrir autant sans leur aide.",
     "schools": {
       "middle": {
-        "name": "Middle school : Ensemble Scolaire de La Salle",
-        "desc": "Middle school was were my interest for IT and computers first awaken. Back then, I had a Mathematics teacher deeply involved in the network administration who made really interesting coding introductions."
+        "name": "Ensemble Scolaire de La Salle",
+        "desc": "Le collège a été là où j'ai découvert mon intérêt pour l'informatique. A ce moment, j'ai un eu professeur de mathématiques très impliqué dans le milieu informatique qui a fait des introductions passionnantes au développement."
       },
       "high": {
-        "name": "High school : EPID",
-        "desc": "At EPID, I had lectures about IT twice a week, where I learnt the bacics of web development, Python, Mysql and some simple algorithms. This is where I really learned how to code and use a computer."
+        "name": "EPID",
+        "desc": "A l'EPID, j'ai eu des cours d'informatique deux fois par semaine, où j'ai appris les bases du développement web, Python, Mysql et quelques algorithmes de base. C'est là que j'ai réellement appris à coder, et à me servir de l'outil informatique."
       },
       "bachelor": {
-        "name": "Calais IUT",
-        "desc": "As I was pretty good with computers, I headed for a Computer Science bachelor at Calais IUT. I was delighted to learn so much about this field everyday, and also got the chance to go twite to Japan for internships in research labs."
+        "name": "IUT de Calais",
+        "desc": "J'ai ensuite rejoint l'IUT de Calais pour un BUT Informatique. J'étais ravis d'en découvrir autant chaque jour, et d'avoir la chance d'aller par deux fois au Japon pour des stages en labo de recherche."
       },
       "master": {
-        "name": "ULCO University, Computer Science department",
-        "desc": "My current formation, and the logic next step. I'm discovering there the basics to Artificial Intelligence, data scientist things and optimizing algorithms and problem solving systems."
+        "name": "ULCO, département Informatique",
+        "desc": "La prochaine étape logique, et ma formation actuelle. J'y découvre les grandes lignes de l'Intelligence Artificielle, la gestion et analyse des données, ainsi que l'optimisation d'algorithmes et la résolution de problèmes."
       }
     },
     "diplomas": {
-      "junior_high_school": "Junior High School Diploma",
-      "high_school": "High School Diploma",
-      "bachelor": "Bachelor's degree ( Computer Science )",
-      "master": "Soon : Master's degree ( Computer Science )"
+      "junior_high_school": "Brevet des collèges",
+      "high_school": "BAC, options Mathématiques expertes et Sciences de l'Informatique",
+      "bachelor": "BUT Informatique",
+      "master": "Prochainement : Master informatique"
     }
   },
   "contact": {
-    "title": "Send me a message !",
-    "subtitle": "Thanks for your interest ! If you want to contact me, the easiest way is by Email.",
+    "title": "Envoyez-moi un message !",
+    "subtitle": "Merci pour votre intérêt ! Le meilleur moyen de me contacter est par e-mail.",
     "emails": {
       "research": {
-        "title": "About studies or research",
-        "desc": "If you want to talk about school or research made as part of my studies, please use {user}<That email Symbol>{domain}."
+        "title": "Études & Recherche",
+        "desc": "Pour tout ce qui concerne mon parcours académique ou la recherche, merci de passer par {user}<Signe email>{domain}."
       },
       "work": {
-        "title": "Work, jobs, others",
-        "desc": "All of these can go directly here : {user}<>{domain}"
+        "title": "Pro, entreprises et autres",
+        "desc": "Toutes les demandes peuvent aller ici : {user}<Signe email>{domain}"
       }
     }
   },
   "projects":{
     "semantic_segmentation":{
-      "title": "Semantic Segmentation",
-      "subtitle": "My first internship in Japan, at Hachinohe National Institute of Technology.",
+      "title": "Segmentation sémantique",
+      "subtitle": "Mon premier stage au Japon, à l'Institut National de technologie d'Hachinohe.",
       "content": {
         "context": {
-          "title": "Some context before begining...",
-          "text": "The picture you can see next to this text is Hachinohe Kosen, the place where I had the chance to go for my very first research internship. I was sent there for a 3 months stay, with some other French students."
+          "title": "Un peu de contexte sur ce stage...",
+          "text": "La photo juste à côté de ce texte est le Kosen d'Hachinohe, l'endroit où j'ai eu la chance d'aller faire mon tout premier stage de recherche. J'y ai été envoyé pour un stage de 3 mois, avec d'autres étudiants Français."
         },
         "semantic": {
-          "title": "Semantic Segmentation models study",
-          "text": "I installed three models on my laptop, Unet, Segnet and DeeplabV3, and trained them using the \"oxford_iiit_pet\" dataset ( from which the cat picture on this page comes from ). I searched about them and obtained various statistics and results, that I analysed and used to determine which one was the best Semantic Segmentation model back then.",
+          "title": "Étude des modèles de segmentation sémantique",
+          "text": "J'ai installé trois modèles sur mon ordinateur, Unet, Segnet et DeeplabV3, puis je les ai entraînés avec le jeu de données \"oxford_iiit_pet\" ( d'où provient l'image du chat de cette page ). J'ai étudié et testé ces modèles puis ai pu en tirer des statistiques et résultats, que j'ai analysés pour en conclure lequel était le meilleur à ce moment.",
           "table": {
-            "model": "Model",
-            "accuracy": "Accuracy",
-            "loss": "Loss",
-            "process_time": "Processing time for one frame",
-            "year": "Release year"
+            "model": "Modèle",
+            "accuracy": "Précision",
+            "loss": "Perte",
+            "process_time": "Temps de calcul pour une image",
+            "year": "Année"
           },
-          "result": "According to this table, the best model among those I tested was DeeplabV3. It was the one giving the best results according to Accuracy, but is a little slower than Unet."
+          "result": "Comme le montre ce tableau, le meilleur modèle parmi ceux testés était DeeplabV3. Il a eu le meilleur score de précision, bien qu'il soit un peu plus lent que Unet."
         },
         "human_recognition": {
-          "title": "Human detection",
-          "text": "Alongside with the Semantic Segmentation, I was asked to find a way to recognize an human from a webcam stream. I chose the model YoloV5 to implement this functionality, and got some nice results."
+          "title": "Reconnaissance d'Humains",
+          "text": "A côté de la segmentation sémantique, il m'a été demandé de trouver un moyen de détecter un humain depuis un flux vidéo d'une caméra. J'ai choisi le modèle YoloV5 pour implémenter cette fonctionnalité, et j'ai pu obtenir quelques résultats intéréssants."
         }
       }
     },
     "video_editor":{
-      "title": "Video Editor creation",
-      "subtitle": "My second internship in Japan, at Fukushima National Institute of Technology.",
+      "title": "Logiciel d'édition vidéo",
+      "subtitle": "Mon deuxième stage au Japon, à l'Institut National de technologie de Fukushima.",
       "fukushima_kosen": {
-        "title": "About the place",
-        "text": "For this internship, I was accepted at Fukushima Kosen as an help for a research team. I was accompanied by some others French and Finnish students, and hosted in the school dormitory for a 3 months stay."
+        "title": "A propos de l'endroit",
+        "text": "Pour ce stage, j'ai été accepté au Kosen de Fukushima pour assister l'équipe de recherche locale. J'ai été accompagné par quelques étudiants Français et Finlandais, et hébergé dans le dortoir de l'école pour les 3 mois de mon séjour."
       },
       "perception": {
-        "title": "Research about the perception of temporal seriality with the naked eye",
-        "text": "One of my tasks was to help the research team by imaginating new ways to create sequences that can be easily used in this study. Sequences consisted mainly in videos of small balls falling or waterfalls.",
-        "text2": "Those experiments are filmed using a normal and a slow motion camera. The resulting files are then passed to a small program I made in order to work on the frames."
+        "title": "Recherches sur la perception de la sérialité temporelle à l'œil nu",
+        "text": "L'une de mes missions a été d'aider l'équipe de recherche à imaginer de nouveaux moyens de créer des séquences pouvant être exploitées dans cette recherche. Les séquences étaient principalement des vidéos de petites billes en chute, ou de cascade.",
+        "text2": "Ces expériences étaient filmées avec une caméra classique, et une autre à haute vitesse. Les vidéos créées étaient ensuite passées à un petit programme que j'ai conçu pour travailler sur les frames de ces fichiers."
       },
       "software": {
-        "title": "Frames editing software",
-        "text": "I created a simple software that allowed researchers to edit quickly the experiments videos. The program was basically a GUI over ffmpeg, allowing users to alter the temporality by reversing or randomizing frames order, and recreating the edited file.",
-        "text2": "Here is an example of a frame coming from some files we worked on. Once assembled into a video file again, we were able to conduct some experiments about the perception of temporal seriality using the naked eye."
+        "title": "Logiciel d'édition des frames",
+        "text": "J'ai créé un logiciel simple permettant aux chercheurs de mofifier rapidement la temporalité des vidéos. Le programme consistait principalement en une interface graphique au-dessus de Ffmpeg, permettant aux utilisateurs de modifier la temporalité en inversant ou réorganisant aléatoirement les images des vidéos, et de réassembler ces frames en un nouveau fichier.",
+        "text2": "Voici un exemple d'image extraite de vidéos sur lesquelles nous avons travaillés. Une fois réassemblées de nouveau en fichier vidéo, nous avons pu réaliser quelques expériences sur la perception de la sérialité temporelle."
       },
       "data_recovery": {
-        "title": "Data recovery",
-        "text": "Unfortunately, at some point, the laptop containing a part of the research data broke, and I did by best to recover the lost files. Working tirelessly, I tried a lot of different recovery tools, until realizing the hard drive is encrypted using Microsoft's Bitlocker. This security is enabled by default on a large part of new laptops using Windows, and nobody in the team ever heard about it. Without any recovery key (not saved in Microsoft account !), the files were sadly definitively lost. This is the reason why I removed Windows from all my computers, and started using Linux daily."
+        "title": "Récupération de données",
+        "text": "Malheureusement, au bout d'un moment, l'ordinateur contenant une partie des données de recherche s'est cassé, et j'ai immédiatement fait tout mon possible pour en récupérer les données perdues. Travaillant sans relâche, j'ai essayé tout un ensemble d'outils de récupération, avant de réaliser que le disque dur était chiffré avec BitLocker, le système de chiffrement de Microsoft. Cette sécurité est activée par défaut sur un grand nombre d'ordinateurs neufs utilisant Windows, et personne dans l'équipe n'en a jamais entendu parler. Sans la clé de secours ( Non sauvegardée dans le compte Microsoft !), les fichiers ont malheureusement été définitivement perdus. C'est pour cette raison que j'ai supprimé Windows de tous mes appareils, et que j'utilise maintenant Linux au quotidien."
       }
     }
   }
