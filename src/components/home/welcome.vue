@@ -15,6 +15,10 @@
               </div>
             </div>
         </div> <!-- Name div -->
+
+        <div id="scroll_arrow">
+            <img :src="arrowSvg"/>
+        </div>
     </div> <!-- Welcome Div -->
 </template>
 
@@ -26,6 +30,7 @@
   import mailSvg from '@/assets/img/mail.svg';
   import lineImg from '@/assets/img/line.png';
   import githubSvg from '@/assets/img/github.svg';
+  import arrowSvg from '@/assets/svg/arrow_down.svg';
 
   const i18n = useI18n();
 
@@ -104,6 +109,28 @@
     height: fit-content;
     display: flex;
     flex-direction: row;
+}
+
+#scroll_arrow{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 40px;
+    height: 65px;
+    bottom: 5%;
+    animation-name: arrow_floating;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+#scroll_arrow img{
+    width: 100%;
+    height: 100%;
+}
+
+@keyframes arrow_floating {
+  from {bottom:5%;}
+  to {bottom: 8%;}
 }
 
 </style>
