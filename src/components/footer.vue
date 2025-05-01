@@ -69,7 +69,7 @@
   const networks = [{
     img:githubSvg,
     routerLink:false,
-    link:"#"
+    link:"https://github.com/LJ5O"
   },{
     img:lineImg,
     routerLink:false,
