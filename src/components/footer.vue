@@ -3,7 +3,7 @@
     <div id="footer_content">
 
       <div id="footer_social_networks">
-        <h1>Social networks</h1>
+        <h1>{{$t("footer.social")}}</h1>
 
         <social v-for="(e,i) in networks" :key="i" :img="e.img" 
           :routerLink="e.routerLink" :link="e.link" class="footer_social_network_item" />
@@ -11,7 +11,7 @@
       </div>
       
       <nav id="footer_content_links">
-        <h1>Sitemap</h1>
+        <h1>{{$t("footer.sitemap")}}</h1>
 
         <div class="footer_links_box">
           <h2 class="footer_links_box_title">Projects</h2>
@@ -25,10 +25,10 @@
       </nav> <!-- Footer content links -->
 
       <div id="footer_contact_div">
-        <h1>Contact</h1>
-        <p>Want to contact me ? Let's have a talk !</p>
+        <h1>{{$t("footer.contact")}}</h1>
+        <p>{{$t("footer.contact_text")}}</p>
         <router-link :to="{ name: 'contact'}">
-          <div id="footer_contact_button" class="button">Contact</div>
+          <div id="footer_contact_button" class="button">{{$t("footer.contact_button")}}</div>
         </router-link>
       </div>
 

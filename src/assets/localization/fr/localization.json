@@ -192,5 +192,11 @@
         "text": "Malheureusement, au bout d'un moment, l'ordinateur contenant une partie des données de recherche s'est cassé, et j'ai immédiatement fait tout mon possible pour en récupérer les données perdues. Travaillant sans relâche, j'ai essayé tout un ensemble d'outils de récupération, avant de réaliser que le disque dur était chiffré avec BitLocker, le système de chiffrement de Microsoft. Cette sécurité est activée par défaut sur un grand nombre d'ordinateurs neufs utilisant Windows, et personne dans l'équipe n'en a jamais entendu parler. Sans la clé de secours ( Non sauvegardée dans le compte Microsoft !), les fichiers ont malheureusement été définitivement perdus. C'est pour cette raison que j'ai supprimé Windows de tous mes appareils, et que j'utilise maintenant Linux au quotidien."
       }
     }
+  },
+  "footer": {
+    "social": "Réseaux",
+    "sitemap": "Plan du site",
+    "contact": "Contact",
+    "contact_text": "Vous souhaitez me contacter ? C'est par ici !"
   }
 }

@@ -192,5 +192,12 @@
         "text": "Unfortunately, at some point, the laptop containing a part of the research data broke, and I did by best to recover the lost files. Working tirelessly, I tried a lot of different recovery tools, until realizing the hard drive is encrypted using Microsoft's Bitlocker. This security is enabled by default on a large part of new laptops using Windows, and nobody in the team ever heard about it. Without any recovery key (not saved in Microsoft account !), the files were sadly definitively lost. This is the reason why I removed Windows from all my computers, and started using Linux daily."
       }
     }
+  },
+  "footer": {
+    "social": "Social networks",
+    "sitemap": "Sitemap",
+    "contact": "Contact",
+    "contact_button": "Contact",
+    "contact_text": "Want to contact me ? Let's have a talk !"
   }
 }
