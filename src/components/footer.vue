@@ -45,7 +45,10 @@
       </div>
 
     </div> <!-- Footer content -->
-    <p id="footer_little_text">&lt;/&gt; with &lt;3 by Kévin. Copyright...</p>
+    <div id="footer_bottom"><!-- Footer bottom -->
+      <p id="footer_little_text">&lt;/&gt; with &lt;3 by Kévin. Copyright...</p>
+      <music id="music_button"/>
+    </div>
   </footer>
 </template>
 
@@ -53,6 +56,7 @@
   import { RouterLink } from 'vue-router';
 
   import social from './home/libs/social.vue';
+  import music from './footer/music.vue';
 
   import mailSvg from '@/assets/img/mail.svg';
   import lineImg from '@/assets/img/line.png';
@@ -184,12 +188,6 @@
         margin: auto;
         color:black;
     }
-
-    #footer_little_text{
-        font-size: 0.8em;
-        margin: 0;
-        margin-left: 20px;
-    }
     #footer_right_div{
         width: fit-content;
         min-width: 100px;
@@ -218,5 +216,23 @@
       width: 50px;
       height: 50px;
       cursor: pointer;
+    }
+
+    #footer_bottom{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      width: 100%;
+      justify-content: space-between;
+      align-items: flex-end;
+    }
+    #footer_little_text{
+        font-size: 0.8em;
+        margin: 0;
+        margin-left: 20px;
+    }
+    #music_button{
+      margin-right: 15px;
+      margin-bottom: 5px;
     }
 </style>
