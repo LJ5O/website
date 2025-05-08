@@ -27,7 +27,7 @@
       <div id="footer_contact_div">
         <h1>{{$t("footer.contact")}}</h1>
         <p>{{$t("footer.contact_text")}}</p>
-        <router-link :to="{ name: 'contact'}">
+        <router-link :to="{ name: 'contact'}" id="footer_contact_button_link">
           <div id="footer_contact_button" class="button">{{$t("footer.contact_button")}}</div>
         </router-link>
       </div>
@@ -183,11 +183,15 @@
         margin-bottom: 12px;
         text-align: center;
     }
+    #footer_contact_button_link{
+      display: block;
+      width: 50%;
+      margin: auto;
+    }
     #footer_contact_button{
         background-color: rgb(65, 185, 61);
         font-size: 1.1em;
-        width: 50%;
-        margin: auto;
+        width: 100%;
         color:black;
     }
     #footer_right_div{
