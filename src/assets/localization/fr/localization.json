@@ -135,11 +135,11 @@
     "emails": {
       "research": {
         "title": "Études & Recherche",
-        "desc": "Pour tout ce qui concerne mon parcours académique ou la recherche, merci de passer par {user}<Signe email>{domain}."
+        "desc": "Pour tout ce qui concerne mon parcours académique ou la recherche, merci de passer par {user}<Email>{domain}."
       },
       "work": {
         "title": "Pro, entreprises et autres",
-        "desc": "Toutes les demandes peuvent aller ici : {user}<Signe email>{domain}"
+        "desc": "Toutes les demandes peuvent aller ici : {user}<Email>{domain}"
       }
     }
   },

@@ -135,11 +135,11 @@
     "emails": {
       "research": {
         "title": "About studies or research",
-        "desc": "If you want to talk about school or research made as part of my studies, please use {user}<That email Symbol>{domain}."
+        "desc": "If you want to talk about school or research made as part of my studies, please use {user}<email>{domain}."
       },
       "work": {
         "title": "Work, jobs, others",
-        "desc": "All of these can go directly here : {user}<>{domain}"
+        "desc": "All of these can go directly here : {user}<email>{domain}"
       }
     }
   },
