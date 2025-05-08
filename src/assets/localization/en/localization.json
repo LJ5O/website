@@ -7,7 +7,7 @@
       "student":"Master's degree student"
     },
     "presentationTitle":"Thanks for visiting !",
-    "presentationText": "Hi ! I'm Kévin Taccoen, a Computer Science student currently pursuing a Master's degree at <a href=\"\" target=\"_blank\" rel=\"noopener\">Opal Coast University</a>, France. I'm studying a lot about new technologies, and their potential to shape the Future.<br>Also often playing with Artificial Intelligence, and working on projects using my skills in full-stack development, software conception or data analysis.",
+    "presentationText": "Hi ! I'm Kévin Taccoen, a Computer Science student currently pursuing a Master's degree at <a href=\"https://www.univ-littoral.fr/en/\" target=\"_blank\" rel=\"noopener\">Opal Coast University</a>, France. I'm studying a lot about new technologies, and their potential to shape the Future.<br>Also often playing with Artificial Intelligence, and working on projects using my skills in full-stack development, software conception or data analysis.",
     "contactMe": "Are you looking to send me a message ?",
     "contactButton": "Contact",
     "features": {
