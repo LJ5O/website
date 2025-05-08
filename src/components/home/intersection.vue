@@ -1,8 +1,8 @@
 <template>
   <div class="intersection_div">
-      <div class="intersection_content test">
-        <h2 class="test">{{ props.text }}</h2>
-        <RouterLink :to="buttonLink" @click="goToTop"><div class="button intersection_button_div test">
+      <div class="intersection_content">
+        <h2 class="">{{ props.text }}</h2>
+        <RouterLink :to="buttonLink" @click="goToTop"><div class="button intersection_button_div">
             <p>{{buttonText}}</p>
         </div></RouterLink>
       </div>

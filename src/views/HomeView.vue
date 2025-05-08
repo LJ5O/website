@@ -21,7 +21,7 @@
 
     <featuresDisplay/>
 
-    <intersection style="margin-top: 20px;" text="Lorem ipsum dolor sit amet" button-text="En savoir plus" button-link="#" />
+    <!--<intersection style="margin-top: 20px;" text="Lorem ipsum dolor sit amet" button-text="En savoir plus" button-link="#" />-->
 
     <projects/>
 
