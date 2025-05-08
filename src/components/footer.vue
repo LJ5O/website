@@ -46,7 +46,7 @@
 
     </div> <!-- Footer content -->
     <div id="footer_bottom"><!-- Footer bottom -->
-      <p id="footer_little_text">&lt;/&gt; with &lt;3 by Kévin. Copyright...</p>
+      <p id="footer_little_text">&lt;/&gt; with &lt;3 myself.<br>© 2025 Kévin Taccoen. All rights reserved.</p>
       <music id="music_button"/>
     </div>
   </footer>
