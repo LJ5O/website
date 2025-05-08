@@ -2,15 +2,15 @@
     <div class="" id="welcome_div">
       <!--<p id="random_citation">Random Sentence</p>-->
 
-        <div class="test" id="name_div">
+        <div class="" id="name_div">
             <div id="profile_picture"><img src="https://picsum.photos/200" height="100%" width="100%"></div>
            
             <div id="name_div_right_container">
-              <div class="test" id="welcome_text_div">
+              <div class="" id="welcome_text_div">
                 <h1> {{ $t('home.greeting') }} </h1>
                 <dynamicOccupation id="dynamic_occupation" :sentences="occupations" />
               </div>
-              <div id="social_networks" class="test">
+              <div id="social_networks" class="">
                 <social v-for="(e,i) in networks" :key="i" :img="e.img" :routerLink="e.routerLink" :link="e.link" />
               </div>
             </div>
@@ -43,11 +43,11 @@
       img:githubSvg,
       routerLink:false,
       link:"https://github.com/LJ5O"
-    },{
+    }/*,{
       img:lineImg,
       routerLink:false,
       link:"#"
-  },{
+  }*/,{
       img:mailSvg,
       routerLink:true,
       link:"contact"

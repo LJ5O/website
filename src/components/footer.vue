@@ -74,11 +74,11 @@
     img:githubSvg,
     routerLink:false,
     link:"https://github.com/LJ5O"
-  },{
+  },/*{
     img:lineImg,
     routerLink:false,
     link:"#"
-  },{
+  },*/{
     img:mailSvg,
     routerLink:true,
     link:"contact"

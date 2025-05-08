@@ -8,9 +8,9 @@
           <h1>{{ $t("contact.title") }}</h1>
           <p class="subtitle">{{ $t("contact.subtitle") }}</p>
           <h2>{{ $t("contact.emails.research.title") }}</h2>
-          <p>{{ $t("contact.emails.research.desc", {user:"a", domain:"b"}) }}</p>
+          <p>{{ $t("contact.emails.research.desc", {user:"k.sailly", domain:"etu.univ-littoral.fr"}) }}</p>
           <h2>{{ $t("contact.emails.work.title") }}</h2>
-          <p>{{ $t("contact.emails.work.desc", {user:"a", domain:"b"}) }}</p>
+          <p>{{ $t("contact.emails.work.desc", {user:"kevin", domain:"taccoen.fr"}) }}</p>
         </div>
       </div>
     </div>
@@ -37,6 +37,7 @@
   #contact_content img{
     width: 30%;
     min-width: 200px;
+    margin-left: 30px;
   }
   #contact_content_text{
     width: 60%;
