@@ -39,8 +39,8 @@
         <div id="language_selection_div">
           <img :src="frFlagSvg" @click="changeLanguage('fr')"/>
           <img :src="ukFlagSvg" @click="changeLanguage('en')"/>
-          <img :src="usFlagSvg" @click="changeLanguage('en')"/>
-          <img :src="jpFlagSvg" @click="changeLanguage('ja')"/>
+          <!--<img :src="usFlagSvg" @click="changeLanguage('en')"/>
+          <img :src="jpFlagSvg" @click="changeLanguage('ja')"/>-->
         </div>
       </div>
 
