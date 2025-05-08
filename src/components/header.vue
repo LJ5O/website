@@ -3,7 +3,7 @@
     <div id="header_content">
         <RouterLink to="/">
             <div id="header_picture">
-                <img src="https://picsum.photos/50/50"/>
+                <img :src="meIcon"/>
             </div>
         </RouterLink>
     </div>
@@ -12,6 +12,7 @@
 
 <script setup>
     import { RouterLink } from 'vue-router';
+    import meIcon from '@/assets/img/me/icon.png';
 </script>
 
 <style scoped>

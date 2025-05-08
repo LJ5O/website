@@ -3,7 +3,7 @@
       <!--<p id="random_citation">Random Sentence</p>-->
 
         <div class="" id="name_div">
-            <div id="profile_picture"><img src="https://picsum.photos/200" height="100%" width="100%"></div>
+            <div id="profile_picture"><img :src="meIcon" height="100%" width="100%"></div>
            
             <div id="name_div_right_container">
               <div class="" id="welcome_text_div">
@@ -31,6 +31,7 @@
   import lineImg from '@/assets/img/line.png';
   import githubSvg from '@/assets/img/github.svg';
   import arrowSvg from '@/assets/svg/arrow_down.svg';
+  import meIcon from '@/assets/img/me/icon.png';
 
   const i18n = useI18n();
 

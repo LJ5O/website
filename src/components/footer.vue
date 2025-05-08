@@ -34,7 +34,7 @@
 
       <div id="footer_right_div">
         <div id="footer_picture">
-          <img src="https://picsum.photos/50/50">
+          <img :src="meImg">
         </div>
         <div id="language_selection_div">
           <img :src="frFlagSvg" @click="changeLanguage('fr')"/>
@@ -57,6 +57,8 @@
 
   import social from './home/libs/social.vue';
   import music from './footer/music.vue';
+
+  import meImg from '@/assets/img/me/full.png'
 
   import mailSvg from '@/assets/img/mail.svg';
   import lineImg from '@/assets/img/line.png';
@@ -194,7 +196,7 @@
         min-height: 100px;
         margin-left: auto;
         display: flex;
-        flex-direction: column;
+        flex-direction: row; /* Change here to restore row of flags under the picture */
         justify-content: center;
         gap: 20px;
     }
@@ -202,19 +204,21 @@
       text-align: center;
     }
     #footer_picture > img{
+        /*height: 100px;*/
         width: 100px;
-        height: 100px;
     }
     #language_selection_div{
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
-      min-width: fit-content;
+      /*min-width: fit-content;*/
+      width: 120px;/* Change here to restore row of flags under the picture */
       gap: 7px;
+      max-height: 100px;/* Change here to restore row of flags under the picture */
+      align-items: center;
     }
     #language_selection_div img{
       width: 50px;
-      height: 50px;
       cursor: pointer;
     }
 
