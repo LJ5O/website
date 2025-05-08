@@ -43,7 +43,9 @@ const i18n = createI18n({
       ja: ja,
       fr: fr
     }
-})
+});
+
+document.body.classList.add(userLanguage);
 
 // Creating App
 
