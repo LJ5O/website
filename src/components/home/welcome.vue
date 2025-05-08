@@ -111,6 +111,13 @@
     flex-direction: row;
 }
 
+@media (height < 750px) {
+  #scroll_arrow {
+    display: none;
+    animation-name: none;
+  }
+}
+
 #scroll_arrow{
     position: absolute;
     left: 50%;
