@@ -13,7 +13,7 @@
     "features": {
       "projects":{
         "title": "Toujours occupé sur des projets innovants !",
-        "desc": "Que ce soit pour mes études pour sur mon temps libre, je travaille toujours sur de nouveaux projets. J'aime voir comment ces lignes de code peuvent contribuer à améliorer le quotidien, ou faire progresser la Science, et je m'attèle à toujours imaginer, créer et maintenir des choses utiles.",
+        "desc": "Que ce soit pour mes études ou sur mon temps libre, je travaille toujours sur de nouveaux projets. J'aime voir comment ces lignes de code peuvent contribuer à améliorer le quotidien, ou faire progresser la Science, et je m'attèle à toujours imaginer, créer et maintenir des choses utiles.",
         "buttonText": "Vers les projets"
       },
       "skills":{
@@ -53,7 +53,7 @@
         },
         "video_editor":{
           "title": "Logiciel d'édition vidéo",
-          "desc": "J'ai été faire un second stage au Japon, cette fois à l'Institut National de Technologie de Fukushima. J'ai accompagné l'équipe de recherche dans ses travaux sur la perception de la sérialité temporelle à l'œil nu. Mon objectif principal a été de faire un logiciel capable de faire diverses transformations sur des fichiers vidéo.",
+          "desc": "Je suis allé faire un second stage au Japon, cette fois à l'Institut National de Technologie de Fukushima. J'ai accompagné l'équipe de recherche dans ses travaux sur la perception de la sérialité temporelle à l'œil nu. Mon objectif principal a été de faire un logiciel capable de faire diverses transformations sur des fichiers vidéo.",
           "button_text": "En savoir plus",
           "date": "D'avril à juillet 2024"
         },
