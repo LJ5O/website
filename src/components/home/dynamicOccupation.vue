@@ -1,5 +1,5 @@
 <template>
-  <h2>{{ displayedWorld }}</h2>
+  <h2>{{ displayedWorld }}<span id="cursor"/></h2>
 </template>
 
 <script setup>
@@ -53,12 +53,20 @@
 <style scoped>
 
     h2{
-        height: 1.5em;
+        height: fit-content;
         font-size: 1.5em;
         margin-top: 10px;
         margin-bottom: 5px;
         width: fit-content;
+        /*min-height: 3em;*/
+    }
+    #cursor{
         border-right: 2px solid #EAEAEA;
+        animation: blink 1s step-end infinite;
+    }
+
+    @keyframes blink {
+    50%{opacity: 0;}
     }
 
 </style>

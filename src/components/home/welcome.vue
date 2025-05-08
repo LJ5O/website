@@ -79,6 +79,10 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center; 
+    align-items: center;
+    
 }
 
 #profile_picture{
@@ -100,7 +104,7 @@
     width: fit-content;
 }
 #welcome_text_div h1{
-    margin-top: 100px;
+    margin-top: 2%;
     margin-bottom: 10px;
     font-size: 2em;
 }
@@ -115,6 +119,32 @@
   #scroll_arrow {
     display: none;
     animation-name: none;
+  }
+}
+
+@media (max-width: 900px) {
+  #name_div {
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+  #name_div_right_container {
+    align-items: center;
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #welcome_text_div h1 {
+    margin-top: 0px; /* name_div's gap replaces it */
+  }
+  #dynamic_occupation{
+    height: fit-content;
+  }
+  #social_networks {
+    justify-content: center;
   }
 }
 
