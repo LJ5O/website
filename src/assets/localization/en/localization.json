@@ -62,6 +62,12 @@
           "desc": "As part of my Master's degree studies, I am working on a research project, about stock market price prediction. This project is still ongoing, with encouraging results obtained for now.",
           "button_text": "More about it",
           "date": "From November 2024 to May 2025"
+        },
+        "this_website":{
+          "title": "This website",
+          "desc": "A personal website is a must-have when working with Computer Science, so I created one. When people are wondering what I'm working on, or how to send me a message, they can always find here up-to-date information.",
+          "button_text": "See on Github",
+          "date": "Since February 2025"
         }
       },
       "tags":{

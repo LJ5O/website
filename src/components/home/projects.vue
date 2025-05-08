@@ -40,6 +40,7 @@
     import semanticSegmentationImg from '@/assets/img/semantic_segmentation.png';
     import videoEditorImg from '@/assets/img/video_sample.png';
     import tradingAiImg from '@/assets/img/trading_ai.png';
+    import thisWebsiteImg from '@/assets/img/this_website.png';
 
     import {useI18n} from 'vue-i18n';
     const i18n = useI18n();
@@ -83,6 +84,18 @@
         ],
         date: i18n.t("home.projects.project.portfolio.date")
     },{
+        picture: thisWebsiteImg,
+        title: i18n.t("home.projects.project.this_website.title"),
+        desc:i18n.t("home.projects.project.this_website.desc"),
+        buttonText:i18n.t("home.projects.project.this_website.button_text"),
+        buttonLink:"https://github.com/LJ5O/website",
+        localButton:false,
+        tags:[
+            {title:i18n.t("home.projects.tags.active"), colour:tagsColours.active},
+            {title:i18n.t("home.projects.tags.home"), colour:tagsColours.home}
+        ],
+        date: i18n.t("home.projects.project.this_website.date")
+    },{
         picture: tradingAiImg,
         title: i18n.t("home.projects.project.trading_ai.title"),
         desc:i18n.t("home.projects.project.trading_ai.desc"),
@@ -96,19 +109,6 @@
         ],
         date: i18n.t("home.projects.project.trading_ai.date")
     },{
-        picture: semanticSegmentationImg,
-        title: i18n.t("home.projects.project.semantic_segmentation.title"),
-        desc:i18n.t("home.projects.project.semantic_segmentation.desc"),
-        buttonText:i18n.t("home.projects.project.semantic_segmentation.button_text"),
-        buttonLink:"semantic_segmentation",
-        localButton:true,
-        tags:[
-            {title:i18n.t("home.projects.tags.research"), colour:tagsColours.research},
-            {title:i18n.t("home.projects.tags.school"), colour:tagsColours.school},
-            {title:i18n.t("home.projects.tags.archived"), colour:tagsColours.archived}
-        ],
-        date: i18n.t("home.projects.project.semantic_segmentation.date")
-    },{
         picture: videoEditorImg,
         title: i18n.t("home.projects.project.video_editor.title"),
         desc:i18n.t("home.projects.project.video_editor.desc"),
@@ -121,6 +121,19 @@
             {title:i18n.t("home.projects.tags.archived"), colour:tagsColours.archived}
         ],
         date: i18n.t("home.projects.project.video_editor.date")
+    },{
+        picture: semanticSegmentationImg,
+        title: i18n.t("home.projects.project.semantic_segmentation.title"),
+        desc:i18n.t("home.projects.project.semantic_segmentation.desc"),
+        buttonText:i18n.t("home.projects.project.semantic_segmentation.button_text"),
+        buttonLink:"semantic_segmentation",
+        localButton:true,
+        tags:[
+            {title:i18n.t("home.projects.tags.research"), colour:tagsColours.research},
+            {title:i18n.t("home.projects.tags.school"), colour:tagsColours.school},
+            {title:i18n.t("home.projects.tags.archived"), colour:tagsColours.archived}
+        ],
+        date: i18n.t("home.projects.project.semantic_segmentation.date")
     }];
 
     function goToTop(){

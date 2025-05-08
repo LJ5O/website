@@ -62,6 +62,12 @@
           "desc": "Dans le cadre de mon Master, je travaille sur un projet concernant la prédiction des prix futurs des marchés boursiers. Ce projet est toujours en cours, avec des résultats encourageants obtenus pour le moment.",
           "button_text": "En savoir plus",
           "date": "De novembre 2024 à mai 2025"
+        },
+        "this_website":{
+          "title": "Ce site web",
+          "desc": "Il est indispensable d'avoir un site personnel en évoluant dans le milieu de l'Informatique. Pour voir sur quoi je travaille, ou comment m'envoyer un message, il y aura toujours ici des informations à jour.",
+          "button_text": "Voir sur Github",
+          "date": "Depuis février 2025"
         }
       },
       "tags":{
