@@ -27,27 +27,27 @@
   },{
     title: i18n.t("skills.skills.web.title"),
     desc: i18n.t("skills.skills.web.desc"),
-    buttonText: "Click me",
+    //buttonText: "Click me",
     picture: webSvg,
-    link: "google.com"
+    //link: "google.com"
   },{
     title: i18n.t("skills.skills.low_level.title"),
     desc: i18n.t("skills.skills.low_level.desc"),
-    buttonText: "Click me",
+    //buttonText: "Click me",
     picture: lowlevelSvg,
-    link: "google.com"
+    //link: "google.com"
   },{
     title: i18n.t("skills.skills.devops.title"),
     desc: i18n.t("skills.skills.devops.desc"),
-    buttonText: "Click me",
+    //buttonText: "Click me",
     picture: devopsSvg,
-    link: "google.com"
+    //link: "google.com"
   },{
     title: i18n.t("skills.skills.data.title"),
     desc: i18n.t("skills.skills.data.desc"),
-    buttonText: "Click me",
+    //buttonText: "Click me",
     picture: analysisSvg,
-    link: "google.com"
+    //link: "google.com"
   }]
 </script>
   
