@@ -68,6 +68,12 @@
           "desc": "A personal website is a must-have when working with Computer Science, so I created one. When people are wondering what I'm working on, or how to send me a message, they can always find here up-to-date information.",
           "button_text": "See on Github",
           "date": "Since February 2025"
+        },
+        "ia_assistant":{
+          "title": "Personal Assistant",
+          "desc": "This project aims to create an AI agent with tools embedded, as a personal assistant. Built using Ollama, LangGraph, ...",
+          "button_text": "See on Github",
+          "date": "Since June 2025"
         }
       },
       "tags":{

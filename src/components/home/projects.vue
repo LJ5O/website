@@ -41,6 +41,7 @@
     import videoEditorImg from '@/assets/img/video_sample.png';
     import tradingAiImg from '@/assets/img/trading_ai.png';
     import thisWebsiteImg from '@/assets/img/this_website.png';
+    import assistantImg from '@/assets/img/assistant_new_talk.png';
 
     import {useI18n} from 'vue-i18n';
     const i18n = useI18n();
@@ -108,6 +109,18 @@
             {title:i18n.t("home.projects.tags.school"), colour:tagsColours.school}
         ],
         date: i18n.t("home.projects.project.trading_ai.date")
+    },{
+        picture: assistantImg,
+        title: i18n.t("home.projects.project.ia_assistant.title"),
+        desc:i18n.t("home.projects.project.ia_assistant.desc"),
+        buttonText:i18n.t("home.projects.project.ia_assistant.button_text"),
+        buttonLink:"https://github.com/LJ5O/Assistant",
+        localButton:false,
+        tags:[
+            {title:i18n.t("home.projects.tags.active"), colour:tagsColours.active},
+            {title:i18n.t("home.projects.tags.home"), colour:tagsColours.home}
+        ],
+        date: i18n.t("home.projects.project.ia_assistant.date")
     },{
         picture: videoEditorImg,
         title: i18n.t("home.projects.project.video_editor.title"),

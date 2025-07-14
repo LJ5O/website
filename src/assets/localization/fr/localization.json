@@ -68,6 +68,12 @@
           "desc": "Il est indispensable d'avoir un site personnel en évoluant dans le milieu de l'Informatique. Pour voir sur quoi je travaille, ou comment m'envoyer un message, il y aura toujours ici des informations à jour.",
           "button_text": "Voir sur Github",
           "date": "Depuis février 2025"
+        },
+        "ia_assistant":{
+          "title": "Assistant personnel",
+          "desc": "Le but de ce projet est d'avoir un moyen d'utiliser un agent IA ayant accès à de nombreux outils comme un assistant personnel. Construit en utilisant Ollama, LangGraph, ect...",
+          "button_text": "Voir sur Github",
+          "date": "Depuis juin 2025"
         }
       },
       "tags":{
