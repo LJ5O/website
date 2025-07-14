@@ -65,7 +65,7 @@
         button2Link:"https://github.com/Disblock/WebApp",
         tags:[
             {title:i18n.t("home.projects.tags.home"), colour:tagsColours.home},
-            {title:i18n.t("home.projects.tags.bugs_only"), colour:tagsColours.bugs_only}
+            {title:i18n.t("home.projects.tags.archived"), colour:tagsColours.archived}
         ],
         date: i18n.t("home.projects.project.disblock.date")
     },{
@@ -80,7 +80,7 @@
         tags:[
             {title:i18n.t("home.projects.tags.home"), colour:tagsColours.home},
             {title:i18n.t("home.projects.tags.school"), colour:tagsColours.school},
-            {title:i18n.t("home.projects.tags.bugs_only"), colour:tagsColours.bugs_only}
+            {title:i18n.t("home.projects.tags.archived"), colour:tagsColours.archived}
         ],
         date: i18n.t("home.projects.project.portfolio.date")
     },{
@@ -103,7 +103,7 @@
         localButton:false,
         //buttonLink:"#",
         tags:[
-            {title:i18n.t("home.projects.tags.active"), colour:tagsColours.active},
+            {title:i18n.t("home.projects.tags.archived"), colour:tagsColours.archived},
             {title:i18n.t("home.projects.tags.research"), colour:tagsColours.research},
             {title:i18n.t("home.projects.tags.school"), colour:tagsColours.school}
         ],

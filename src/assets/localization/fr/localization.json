@@ -36,14 +36,14 @@
           "desc": "Disblock est un projet à la base d'un bot sur Discord. Beaucoup d'utilisateurs veulent personnaliser leur serveur, mais n'ont pas les compétences de codage. Disblock est un moyen de rapidement assembler son propre agent automatisé, en emboîtant des blocs qui décrivent que faire, et quand.",
           "button_text": "Site web du projet",
           "button2_text": "Voir sur GitHub",
-          "date": "Depuis 2021"
+          "date": "De 2021 à 2025"
         },
         "portfolio":{
           "title": "Portfolio Three.js",
           "desc": "Lors de ma troisième année d'informatique, j'ai été chargé de créer un site web présentant tout ce que j'avais réalisé jusqu'ici. J'ai décidé de mobiliser l'ensemble de mes capacités, en créant moi-même les modèles 3D et animations via Blender, tout en utilisant three.js pour les afficher à l'écran. Ce n'est pas à jour de mes dernières activités !",
           "button_text": "Site web du projet",
           "button2_text": "Voir sur GitHub",
-          "date": "Depuis novembre 2023"
+          "date": "De novembre 2023 à Juillet 2025"
         },
         "semantic_segmentation":{
           "title": "Segmentation sémantique",
