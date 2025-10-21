@@ -34,7 +34,7 @@
         "disblock":{
           "title": "Disblock",
           "desc": "Disblock est un projet à la base d'un bot sur Discord. Beaucoup d'utilisateurs veulent personnaliser leur serveur, mais n'ont pas les compétences de codage. Disblock est un moyen de rapidement assembler son propre agent automatisé, en emboîtant des blocs qui décrivent que faire, et quand.",
-          "button_text": "Site web du projet",
+          "button_text": "Archive du projet",
           "button2_text": "Voir sur GitHub",
           "date": "De 2021 à 2025"
         },
@@ -71,9 +71,15 @@
         },
         "ia_assistant":{
           "title": "Assistant personnel",
-          "desc": "Le but de ce projet est d'avoir un moyen d'utiliser un agent IA ayant accès à de nombreux outils comme un assistant personnel. Construit en utilisant Ollama, LangGraph, ect...",
+          "desc": "Le but de ce projet est d'avoir un moyen d'utiliser un agent IA ayant accès à de nombreux outils comme un assistant personnel. Construit en utilisant Ollama, LangGraph, ect... En pause pour le moment.",
           "button_text": "Voir sur Github",
           "date": "Depuis juin 2025"
+        },
+        "potato_research":{
+          "title": "Projet de recherche lié aux pommes de terres",
+          "desc": "Les détails ne sont pas encore publics, mais un logiciel lié aux pommes de terres est en cours de dévelopement !",
+          "button_text": "Voir sur Github",
+          "date": "Depuis Octobre 2025"
         }
       },
       "tags":{

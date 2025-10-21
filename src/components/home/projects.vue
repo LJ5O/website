@@ -42,6 +42,7 @@
     import tradingAiImg from '@/assets/img/trading_ai.png';
     import thisWebsiteImg from '@/assets/img/this_website.png';
     import assistantImg from '@/assets/img/assistant_new_talk.png';
+    import potatoImg from '@/assets/img/potato.png';
 
     import {useI18n} from 'vue-i18n';
     const i18n = useI18n();
@@ -60,9 +61,9 @@
         title: i18n.t("home.projects.project.disblock.title"),
         desc:i18n.t("home.projects.project.disblock.desc"),
         buttonText:i18n.t("home.projects.project.disblock.button_text"),
-        buttonLink:"https://disblock.xyz",
+        buttonLink:"https://web.archive.org/web/20250403090231/https://disblock.xyz/",
         localButton:false,
-        button2Text:i18n.t("home.projects.project.disblock.button2_text"),
+        button2Text:i18n.t("home.projects.project.disblock.button2_text"), // button2Text => buttonText to change the color.
         button2Link:"https://github.com/Disblock/WebApp",
         tags:[
             {title:i18n.t("home.projects.tags.home"), colour:tagsColours.home},
@@ -110,6 +111,19 @@
         ],
         date: i18n.t("home.projects.project.trading_ai.date")
     },{
+        picture: potatoImg,
+        title: i18n.t("home.projects.project.potato_research.title"),
+        desc:i18n.t("home.projects.project.potato_research.desc"),
+        //buttonText:i18n.t("home.projects.project.potato_research.button_text"),
+        //buttonLink:"https://github.com/LJ5O/", // Todo
+        localButton:false,
+        tags:[
+            {title:i18n.t("home.projects.tags.active"), colour:tagsColours.active},
+            {title:i18n.t("home.projects.tags.research"), colour:tagsColours.research},
+            {title:i18n.t("home.projects.tags.school"), colour:tagsColours.school}
+        ],
+        date: i18n.t("home.projects.project.potato_research.date")
+    },{
         picture: assistantImg,
         title: i18n.t("home.projects.project.ia_assistant.title"),
         desc:i18n.t("home.projects.project.ia_assistant.desc"),
@@ -117,7 +131,7 @@
         buttonLink:"https://github.com/LJ5O/Assistant",
         localButton:false,
         tags:[
-            {title:i18n.t("home.projects.tags.active"), colour:tagsColours.active},
+            //{title:i18n.t("home.projects.tags.active"), colour:tagsColours.active},
             {title:i18n.t("home.projects.tags.home"), colour:tagsColours.home}
         ],
         date: i18n.t("home.projects.project.ia_assistant.date")

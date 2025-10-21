@@ -34,7 +34,7 @@
         "disblock":{
           "title": "Disblock",
           "desc": "Disblock is a project about a Discord bot. A large number of users want to customize their Discord servers with bots, but lacks the coding skills. Disblock is a way to assemble easily his own bot using blocks that can describe what to do, and when.",
-          "button_text": "Open the project",
+          "button_text": "Open the archive",
           "button2_text": "See on Github",
           "date": "From 2021 to 2025"
         },
@@ -71,9 +71,15 @@
         },
         "ia_assistant":{
           "title": "Personal Assistant",
-          "desc": "This project aims to create an AI agent with tools embedded, as a personal assistant. Built using Ollama, LangGraph, ...",
+          "desc": "This project aims to create an AI agent with tools embedded, as a personal assistant. Built using Ollama, LangGraph, ... Paused for now.",
           "button_text": "See on Github",
           "date": "Since June 2025"
+        },
+        "potato_research":{
+          "title": "Research project based on potatoes",
+          "desc": "Details are not yet available, but a Potatoes-related software is under active development !",
+          "button_text": "See on Github",
+          "date": "Since October 2025"
         }
       },
       "tags":{
