@@ -78,7 +78,7 @@
         buttonLink:"https://portfolio.taccoen.dev/",
         localButton:false,
         button2Text:i18n.t("home.projects.project.portfolio.button2_text"),
-        button2Link:"https://github.com/LJ5O/portfolio",
+        button2Link:"https://git.taccoen.dev/Kevin/portfolio",
         tags:[
             {title:i18n.t("home.projects.tags.home"), colour:tagsColours.home},
             {title:i18n.t("home.projects.tags.school"), colour:tagsColours.school},
@@ -90,7 +90,7 @@
         title: i18n.t("home.projects.project.this_website.title"),
         desc:i18n.t("home.projects.project.this_website.desc"),
         buttonText:i18n.t("home.projects.project.this_website.button_text"),
-        buttonLink:"https://github.com/LJ5O/website",
+        buttonLink:"https://git.taccoen.dev/Kevin/website",
         localButton:false,
         tags:[
             {title:i18n.t("home.projects.tags.active"), colour:tagsColours.active},
