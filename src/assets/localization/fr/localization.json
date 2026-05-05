@@ -2,8 +2,8 @@
   "home":{
     "greeting": "Bonjour ! Je suis Kévin Taccoen !",
     "occupation": {
-      "ai":"Adepte de l'IA",
-      "fullstack":"Développeur Full-Stack",
+      "international":"Inspiré par l'International",
+      "research":"Étudie l'Optimisation multi-objectifs",
       "student":"Etudiant en Master Informatique"
     },
     "presentationTitle":"Merci pour la visite !",

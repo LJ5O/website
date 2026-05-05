@@ -36,7 +36,7 @@
   const i18n = useI18n();
 
   const occupations = [
-  i18n.t('home.occupation.ai'), i18n.t('home.occupation.fullstack'),
+  i18n.t('home.occupation.international'), i18n.t('home.occupation.research'),
   i18n.t('home.occupation.student')
   ]
 
