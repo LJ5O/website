@@ -151,13 +151,14 @@
     "title": "Send me a message !",
     "subtitle": "Thanks for your interest ! If you want to contact me, the easiest way is by Email.",
     "emails": {
-      "research": {
-        "title": "About studies or research",
-        "desc": "If you want to talk about school or research made as part of my studies, please use {user}<email>{domain}."
+      "sending": {
+        "title": "Sending an email",
+        "desc": "You can send me a message using {user}<Email>{domain}."
       },
-      "work": {
-        "title": "Work, jobs, others",
-        "desc": "All of these can go directly here : {user}<email>{domain}"
+      "pgp": {
+        "title": "PGP key",
+        "desc": "For safety, you can use my PGP key to encrypt your message:",
+        "key": "-----BEGIN PGP PUBLIC KEY BLOCK-----\n\nmDMEaWEfThYJKwYBBAHaRw8BAQdAbHaAEE1XC/ORm1r5xbHQ5BZCuZHyYoQQyWJm\nP0JRjHW0IUvDqXZpbiBUYWNjb2VuIDxrZXZpbkB0YWNjb2VuLmZyPoiZBBMWCgBB\nAhsjBQsJCAcCAiICBhUKCQgLAgQWAgMBAh4HAheAFiEExkse3JE5lqbdspW1szdK\no4ZCELIFAmoFxQAFCQhBr1UACgkQszdKo4ZCELI2JQEAnBK24jXuLIS12dq+xgjh\nrL+TU77/OU5Oxn4k3GpxC1YBAMiFRBKpyDb2OJr9f3o+6NwldjYCLbIU9RzFpbrk\n7bIKuDgEaWEfThIKKwYBBAGXVQEFAQEHQAYkBmRw2R4DbOCL72JIzzCdOL5St2SQ\nciPjdbP1e4sjAwEIB4h+BBgWCgAmAhsMFiEExkse3JE5lqbdspW1szdKo4ZCELIF\nAmoFxQkFCQhBr14ACgkQszdKo4ZCELKzIQEA3WZwhvq0U8ef2clPqtdzHFKPwDrX\nTND1ccxbH+3lYUABAI3JtaP3S1FPJeWPiFvJ7tY6NeUZ4PlWterptfP4HhIE\n=dRpF\n-----END PGP PUBLIC KEY BLOCK-----"
       }
     }
   },

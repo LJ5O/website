@@ -7,10 +7,11 @@
         <div id="contact_content_text">
           <h1>{{ $t("contact.title") }}</h1>
           <p class="subtitle">{{ $t("contact.subtitle") }}</p>
-          <h2>{{ $t("contact.emails.research.title") }}</h2>
-          <p>{{ $t("contact.emails.research.desc", {user:"k.sailly", domain:"etu.univ-littoral.fr"}) }}</p>
-          <h2>{{ $t("contact.emails.work.title") }}</h2>
-          <p>{{ $t("contact.emails.work.desc", {user:"kevin", domain:"taccoen.fr"}) }}</p>
+          <h2>{{ $t("contact.emails.sending.title") }}</h2>
+          <p>{{ $t("contact.emails.sending.desc", {user:"kevin", domain:"taccoen.fr"}) }}</p>
+          <h2>{{ $t("contact.emails.pgp.title") }}</h2>
+          <p>{{ $t("contact.emails.pgp.desc") }}</p>
+          <p style="white-space: pre-line;">{{ $t("contact.emails.pgp.key") }}</p>
         </div>
       </div>
     </div>
