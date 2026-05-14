@@ -77,9 +77,9 @@
         },
         "potato_research":{
           "title": "Projet de recherche lié aux pommes de terres",
-          "desc": "Les détails ne sont pas encore publics, mais un logiciel lié aux pommes de terres est en cours de dévelopement !",
+          "desc": "Les détails ne sont pas encore publics, mais un logiciel lié aux pommes de terres a été développé.",
           "button_text": "Voir sur Github",
-          "date": "Depuis Octobre 2025"
+          "date": "De octobre 2025 à mars 2026"
         }
       },
       "tags":{

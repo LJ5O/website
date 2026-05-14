@@ -118,7 +118,7 @@
         //buttonLink:"https://github.com/LJ5O/", // Todo
         localButton:false,
         tags:[
-            {title:i18n.t("home.projects.tags.active"), colour:tagsColours.active},
+            {title:i18n.t("home.projects.tags.archived"), colour:tagsColours.archived},
             {title:i18n.t("home.projects.tags.research"), colour:tagsColours.research},
             {title:i18n.t("home.projects.tags.school"), colour:tagsColours.school}
         ],
